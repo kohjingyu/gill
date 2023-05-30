@@ -6,7 +6,7 @@
 
 This repository will host the code and model weights for the GILL model. Coming soon!
 
-[Paper](https://arxiv.org/abs/???) | [Project Webpage](https://jykoh.com/gill)
+[Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill)
 
 
 ## Model and Usage
@@ -25,7 +25,7 @@ If you find this work useful, please consider citing:
 @article{koh2023generating,
   title={Generating Images with Multimodal Language Models},
   author={Koh, Jing Yu and Fried, Daniel and Salakhutdinov, Ruslan},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2305.17216},
   year={2023}
 }
 ```
