@@ -3,6 +3,7 @@ certifi==2022.12.7
 charset-normalizer==3.0.1
 contourpy==1.0.7
 cycler==0.11.0
+diffusers==0.17.0
 einops==0.4.1
 exceptiongroup==1.1.0
 filelock==3.9.0
