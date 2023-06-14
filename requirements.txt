@@ -19,6 +19,7 @@ huggingface-hub==0.15.1
 idna==3.4
 importlib-metadata==6.6.0
 iniconfig==2.0.0
+joblib==1.2.0
 kiwisolver==1.4.4
 Markdown==3.4.3
 MarkupSafe==2.1.3
