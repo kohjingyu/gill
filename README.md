@@ -88,7 +88,7 @@ python -u main.py \
     --dist-url "tcp://127.0.0.1:${randport}" --dist-backend 'nccl' \
     --multiprocessing-distributed --world-size 1 --rank 0 \
     --dataset=cc3m  --val-dataset=cc3m \
-    --exp_name='gill_exp' --image-dir='data/'  --log-base-dir='runs/' \
+    --exp-name='gill_exp' --image-dir='data/'  --log-base-dir='runs/' \
     --precision='bf16'  --print-freq=100
 ```
 The default hyperparameters in `main.py` should reproduce our main results in the paper. We train on 2 A6000 GPUs for 48 hours. For GPUs with smaller memory available, you might need to reduce the batch size, enable gradient accumulation, or adjust hyperparameters to get good performance. You may also have to disable NCCL P2P with export NCCL_P2P_DISABLE=1 if you run into issues.
@@ -98,7 +98,7 @@ You can also run a small job on CPU, for testing purposes:
 python -u main.py \
     --dataset=cc3m  --val-dataset=cc3m \
     --opt-version='facebook/opt-125m' --visual-model='openai/clip-vit-base-patch16' \
-    --exp_name='fromage_exp'   --log-base-dir='runs/' \
+    --exp-name='fromage_exp'   --log-base-dir='runs/' \
     --batch-size=2  --val-batch-size=2  --precision='fp32'  --print-freq=1 \
     --epochs=2  --val_steps_per_epoch=2   --steps_per_epoch=2
 ```

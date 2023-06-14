@@ -1,8 +1,6 @@
+"""Run validation loop for GILL."""
 import collections
-import json
-import os
 from PIL import Image
-import numpy as np
 import time
 import tqdm
 import torch
