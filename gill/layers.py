@@ -14,7 +14,7 @@ class TextFcLayer(nn.Module):
 
     if mode == 'linear':
       self.model = nn.Linear(in_dim, out_dim)
-    elif mode == 'gill_mapper':  # TODO(jykoh): Rename to GILLMapper
+    elif mode == 'gill_mapper':
       hidden_dim = 512
       self.fc = nn.Linear(in_dim, hidden_dim)
       self.tfm = nn.Transformer(batch_first=True, norm_first=True,

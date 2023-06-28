@@ -103,17 +103,63 @@ python -u main.py \
     --epochs=2  --val_steps_per_epoch=2   --steps_per_epoch=2
 ```
 
+## Evaluation
+
+We provide code to reproduce the VIST (Table 1) and VisDial (Table 2) results presented in our paper.
+
+### VIST Evaluation
+
+To run the VIST evaluation, first download the annotations from the val set of the [official VIST dataset](https://visionandlanguage.net/VIST/json_files/story-in-sequence/SIS-with-labels.tar.gz). We will need to download and process the image files for running the evaluations presented in the paper. This can be done by running `python evals/download_vist_images.py`. By default, images are saved to the `sis/val_images/` directory. Downloading the images should take about 1 hour on a decent connection (as images are downloaded directly from the Flickr URLs).
+
+After the image files are downloaded, we can run the VIST generation experiment described in Section 4.1 our paper. First, we will run GILL to generate the last image in the sequence, conditioned on image + text inputs:
+
+```
+python evals/generate_vist_images.py  gill_vist_outputs
+```
+
+The generated images for each VIST example will be saved in `gill_vist_outputs/`. Then, to benchmark the models, we can compute the CLIP similarity scores:
+```
+python evals/compute_clip_similarity_vist.py
+```
+
+For the LPIPS metric, please refer to their [official GitHub repo](https://github.com/richzhang/PerceptualSimilarity) for installation instructions. Then, we can compute the results as follows:
+```
+python lpips_2dirs.py -d0  sis/val_images/  -d1  gill_vist_outputs  -o results.txt --use_gpu
+```
+For LPIPS, you may have to resize the images to 256x256 to match the AlexNet model used.
+
+
+### VisDial Evaluation
+
+
+Similarly, for VisDial, download the [VisDial validation annotations](https://www.dropbox.com/s/ibs3a0zhw74zisc/visdial_1.0_val.zip?dl=0), the [dense answer annotations](https://www.dropbox.com/s/3knyk09ko4xekmc/visdial_1.0_val_dense_annotations.json?dl=0), and the [images](https://www.dropbox.com/s/twmtutniktom7tu/VisualDialog_val2018.zip?dl=0). Extract everything to the `VisualDialog` folder.
+
+We can run the VisDial generation experiment described in Section 4.1 our paper. We run GILL to generate an image conditioned on the full text dialogue input:
+
+```
+python evals/generate_visdial_images.py  gill_visdial_outputs
+```
+
+The generated images for each VisDial example will be saved in `gill_visdial_outputs/`. Then, to benchmark the models, we can compute the CLIP similarity scores:
+
+```
+python evals/compute_clip_similarity_visdial.py
+```
+
+For LPIPS, please follow the VIST instructions above to compute scores using the [official LPIPS GitHub repo](https://github.com/richzhang/PerceptualSimilarity).
+
+
 
 ## TODOs
 
-- [ ] Add evaluation scripts for reproducing the results in the paper.
 - [ ] Add web demo.
+- [x] Add evaluation scripts for reproducing the results in the paper.
 - [x] Add training code and instructions for training a new GILL model on CC3M.
 
 
 ## Citation
 
-If you find this work useful, please consider citing:
+If you find this work or our code useful, please consider citing:
 
 ```
 @article{koh2023generating,
