@@ -263,7 +263,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
         if prompt_embeds is None:
             untruncated_ids = self.tokenizer(prompt, padding="longest", return_tensors="pt").input_ids
             
-            truncate_side = 'left'
+            truncate_side = 'right'
             
             if truncate_side == 'left':
                 # Truncate from the left.
