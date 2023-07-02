@@ -87,6 +87,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
         safety_checker: StableDiffusionSafetyChecker,
         feature_extractor: CLIPFeatureExtractor,
         requires_safety_checker: bool = True,
+        truncate_side: str = 'right',
     ):
         super().__init__()
 
@@ -165,6 +166,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
         )
         self.vae_scale_factor = 2 ** (len(self.vae.config.block_out_channels) - 1)
         self.register_to_config(requires_safety_checker=requires_safety_checker)
+        self.truncate_side = truncate_side
 
     def enable_vae_slicing(self):
         r"""
@@ -263,9 +265,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
         if prompt_embeds is None:
             untruncated_ids = self.tokenizer(prompt, padding="longest", return_tensors="pt").input_ids
             
-            truncate_side = 'right'
-            
-            if truncate_side == 'left':
+            if self.truncate_side == 'left':
                 # Truncate from the left.
                 if untruncated_ids.shape[-1] > self.tokenizer.model_max_length:
                     print('Original prompt:', prompt)
@@ -283,7 +283,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
             )
             text_input_ids = text_inputs.input_ids
             
-            if truncate_side == 'right':
+            if self.truncate_side == 'right':
                 untruncated_ids = self.tokenizer(prompt, padding="longest", return_tensors="pt").input_ids
 
                 if untruncated_ids.shape[-1] >= text_input_ids.shape[-1] and not torch.equal(
