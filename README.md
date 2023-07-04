@@ -4,7 +4,7 @@
 <img alt="GILL chat animation" src="./dialogue.gif" width="90%">
 </p>
 
-This repository will host the code and model weights for the GILL model. Coming soon!
+This repository hosts the code and model weights for the GILL model.
 
 [Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill)
 
