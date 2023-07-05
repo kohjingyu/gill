@@ -6,7 +6,9 @@
 
 This repository hosts the code and model weights for the GILL model.
 
-[Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill)
+[Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill) | [![HF paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://huggingface.co/papers/2305.17216) | [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/jykoh/gill)
+
+
 
 
 ## Model and Usage
@@ -149,10 +151,14 @@ python evals/compute_clip_similarity_visdial.py
 For LPIPS, please follow the VIST instructions above to compute scores using the [official LPIPS GitHub repo](https://github.com/richzhang/PerceptualSimilarity).
 
 
+## Gradio Demo
+
+You can launch your own version of the Gradio demo locally by running `python demo/app_gradio.py`, or duplicating the [HuggingFace space](https://huggingface.co/spaces/jykoh/gill).
+
 
 ## TODOs
 
-- [ ] Add web demo.
+- [x] Add web demo.
 - [x] Add evaluation scripts for reproducing the results in the paper.
 - [x] Add training code and instructions for training a new GILL model on CC3M.
 
