@@ -6,7 +6,9 @@
 
 This repository hosts the code and model weights for the GILL model.
 
-[Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill) | [![HF paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://huggingface.co/papers/2305.17216) | [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/jykoh/gill)
+[Paper](http://arxiv.org/abs/2305.17216) | [Project Webpage](https://jykoh.com/gill)
+
+[![HF paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://huggingface.co/papers/2305.17216) [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/jykoh/gill)
 
 
 
