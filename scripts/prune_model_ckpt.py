@@ -1,3 +1,9 @@
+"""Prunes model weights to keep just the necessary trained weights.
+
+Example usage:
+  python gill/prune_model_ckpt.py  runs/gill_exp
+"""
+
 import json
 import os
 import sys
