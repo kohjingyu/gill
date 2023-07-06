@@ -102,10 +102,22 @@ You can also run a small job on CPU, for testing purposes:
 python -u main.py \
     --dataset=cc3m  --val-dataset=cc3m \
     --opt-version='facebook/opt-125m' --visual-model='openai/clip-vit-base-patch16' \
-    --exp-name='fromage_exp'   --log-base-dir='runs/' \
+    --exp-name='gill_exp'   --log-base-dir='runs/' \
     --batch-size=2  --val-batch-size=2  --precision='fp32'  --print-freq=1 \
     --epochs=2  --val_steps_per_epoch=2   --steps_per_epoch=2
 ```
+
+## Pruning the Checkpoint
+
+As GILL only consists of a few pretrained linear layers and the `[IMG]` embeddings, we can discard most of the pretrained weights to save on disk space. If you have trained a new model, and wish to do so, you can use `gill/prune_model_ckpt.py` file to prune the model weights, and format the ckpt as required by `gill/models.py`:
+
+```
+python gill/prune_model_ckpt.py  runs/gill_exp
+```
+
+We used the same script to create the weights in the `checkpoints/` directory.
+
+
 
 ## Evaluation
 
