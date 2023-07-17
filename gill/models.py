@@ -689,7 +689,7 @@ class GILL(nn.Module):
                 image_outputs['ret'].append((img, 'ret', scores[img_idx].item()))
                 if len(image_outputs) == max_num_rets:
                   break
-              except (UnidentifiedImageError, ConnectionError):
+              except (UnidentifiedImageError, ConnectionError, OSError):
                 pass
 
             # Make decision with MLP.
