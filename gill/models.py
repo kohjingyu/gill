@@ -890,7 +890,7 @@ def load_gill(model_dir: str, load_ret_embs: bool = True) -> GILL:
         assert model_kwargs['share_ret_gen'], 'Model loading only supports share_ret_gen=True for now.'
       model.model.input_embeddings.weight[-model_kwargs['num_tokens']:, :].copy_(img_token_embeddings)
 
-  if len(embs_paths) > 0:
+  if load_ret_embs and len(embs_paths) > 0:
     logit_scale = model.model.logit_scale.exp()
     emb_matrix = torch.tensor(emb_matrix, dtype=logit_scale.dtype).to(logit_scale.device)
     emb_matrix = emb_matrix / emb_matrix.norm(dim=1, keepdim=True)
