@@ -28,7 +28,7 @@ if __name__ == '__main__':
     os.makedirs(output_dir, exist_ok=True)
     print('Saving to', output_dir)
 
-    model = models.load_gill('checkpoints/gill_opt/')
+    model = models.load_gill('checkpoints/gill_opt/', load_ret_embs=False)
     g_cuda = torch.Generator(device='cuda').manual_seed(42)  # Fix the random seed.
 
     # Load VIST data.

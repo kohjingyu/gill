@@ -808,7 +808,7 @@ class GILL(nn.Module):
     return -outputs.loss.item()  
 
 
-def load_gill(model_dir: str) -> GILL:
+def load_gill(model_dir: str, load_ret_embs: bool = True) -> GILL:
   model_args_path = os.path.join(model_dir, 'model_args.json')
   model_ckpt_path = os.path.join(model_dir, 'pretrained_ckpt.pth.tar')
   embs_paths = [s for s in glob.glob(os.path.join(model_dir, 'cc3m*.npy'))]
@@ -817,8 +817,10 @@ def load_gill(model_dir: str) -> GILL:
     raise ValueError(f'model_args.json does not exist in {model_dir}.')
   if not os.path.exists(model_ckpt_path):
     raise ValueError(f'pretrained_ckpt.pth.tar does not exist in {model_dir}.')
-  if len(embs_paths) == 0:
-    print(f'cc3m.npy files do not exist in {model_dir}. Running the model without retrieval.')
+  if not load_ret_embs or len(embs_paths) == 0:
+    if len(embs_paths) == 0:
+      print(f'cc3m.npy files do not exist in {model_dir}.')
+    print('Running the model without retrieval.')
     path_array, emb_matrix = None, None
   else:
     # Load embeddings.
