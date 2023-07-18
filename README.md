@@ -142,7 +142,7 @@ For the LPIPS metric, please refer to their [official GitHub repo](https://githu
 ```
 python lpips_2dirs.py -d0  sis/val_images/  -d1  gill_vist_outputs  -o results.txt --use_gpu
 ```
-For LPIPS, you may have to resize the images to 256x256 to match the AlexNet model used.
+For LPIPS, you may have to resize the images to 256x256 to match the AlexNet model used. We have also uploaded our LPIPS eval script (`gill/evals/lpips_2dirs.py`) for reference.
 
 
 ### VisDial Evaluation
