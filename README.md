@@ -112,7 +112,7 @@ python -u main.py \
 As GILL only consists of a few pretrained linear layers and the `[IMG]` embeddings, we can discard most of the pretrained weights to save on disk space. If you have trained a new model, and wish to do so, you can use `gill/prune_model_ckpt.py` file to prune the model weights, and format the ckpt as required by `gill/models.py`:
 
 ```
-python gill/prune_model_ckpt.py  runs/gill_exp
+python scripts/prune_model_ckpt.py  runs/gill_exp
 ```
 
 We used the same script to create the weights in the `checkpoints/` directory.
