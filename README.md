@@ -120,7 +120,17 @@ We used the same script to create the weights in the `checkpoints/` directory.
 
 ## Training a Decision Classifier
 
-Preprocess our PartiPrompts annotations to keep only those with high interannotator agreement:
+As described in the paper (Appendix F), we annotate [PartiPrompts](https://github.com/google-research/parti) with per-example labels to retrieve or generate. The annotations are provided in `data/PartiPromptsAllDecisions.tsv`. The format follows PartiPrompts, with an additional `Decisions` column that we introduce:
+
+```
+Prompt	Category	Challenge	Note	Decisions
+bond	Abstract	Basic	Biology-inspired concepts with multiple meanings	ret,gen,gen,same,gen
+element	Abstract	Basic	Biology-inspired concepts with multiple meanings	ret,ret,ret,ret,same
+```
+
+this column indicates the annotations of 5 independent human evaluators. The decisions indicate whether the annotators prefer the retrieved image (`ret`), Stable Diffusion generated image (`gen`), or if both are around the same (`same`). The annotations released are for the query assessing which image is more relevant to the provided prompt. The annotations for the query on realism is also available at `data/PartiPromptsAllDecisions_Realism.tsv`, although we recommend using the text alignment annotations for training a decision classifier (as retrieved images are likely to be significantly more realistic than generated ones in general).
+
+To train a decision classifier, first, preprocess the PartiPrompts annotations to keep only those with high interannotator agreement:
 ```
 python scripts/process_p2_annotations.py
 ```

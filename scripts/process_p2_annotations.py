@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Load the annotated PartiPrompts.
     id2decision = {}
 
-    with open('data/PartiPromptsAllDecisions.tsv', 'r') as f:
+    with open('data/PartiPromptsAllDecisions_Alignment.tsv', 'r') as f:
         outputs = f.readlines()
         
         for i in range(1, len(outputs)):
