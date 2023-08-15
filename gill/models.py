@@ -554,7 +554,7 @@ class GILL(nn.Module):
       print('Loading decision model...')
       self.decision_model = nn.Sequential(*[
           nn.Dropout(0.5),
-          nn.Linear(4097, 2),
+          nn.Linear(4096, 2),
       ])
       mlp_checkpoint = torch.load(decision_model_path)
       self.decision_model.load_state_dict(mlp_checkpoint['state_dict'], strict=True)
