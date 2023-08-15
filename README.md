@@ -125,10 +125,7 @@ Preprocess our PartiPrompts annotations to keep only those with high interannota
 python scripts/process_p2_annotations.py
 ```
 
-Train a linear classifier on the annotations:
-```
-python scripts/train_decision_model.py
-```
+To train a decision model on these annotations, please follow the steps in `TrainDecisionClassifier.ipynb`. F1 scores of the model and human baselines are reported in the notebook. If you trained a GILL model from scratch, you would need to train this classifier as well, as the one provided at `checkpoints/gill_opt/decision_model.pth.tar` is only compatible with our original model weights.
 
 
 ## Evaluation

@@ -808,7 +808,7 @@ class GILL(nn.Module):
     return -outputs.loss.item()  
 
 
-def load_gill(model_dir: str, load_ret_embs: bool = True) -> GILL:
+def load_gill(model_dir: str, load_ret_embs: bool = True, decision_model_fn: str = 'decision_model.pth.tar') -> GILL:
   model_args_path = os.path.join(model_dir, 'model_args.json')
   model_ckpt_path = os.path.join(model_dir, 'pretrained_ckpt.pth.tar')
   embs_paths = [s for s in glob.glob(os.path.join(model_dir, 'cc3m*.npy'))]
@@ -865,7 +865,10 @@ def load_gill(model_dir: str, load_ret_embs: bool = True) -> GILL:
   args = namedtuple('args', model_kwargs)(**model_kwargs)
 
   # Load decision model.
-  decision_model_path = os.path.join(model_dir, 'decision_model.pth.tar')
+  if decision_model_fn is not None:
+    decision_model_path = os.path.join(model_dir, decision_model_fn)
+  else:
+    decision_model_path = None
 
   # Initialize model for inference.
   model = GILL(tokenizer, args, path_array=path_array, emb_matrix=emb_matrix,
