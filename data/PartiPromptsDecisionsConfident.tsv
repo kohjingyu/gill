@@ -1,0 +1,1633 @@
+Prompt	Category	Challenge	Note	Decision
+bond	Abstract	Basic	Biology-inspired concepts with multiple meanings	gen
+element	Abstract	Basic	Biology-inspired concepts with multiple meanings	ret
+molecule	Abstract	Basic	Biology-inspired concepts with multiple meanings	gen
+life	Abstract	Basic	Biology-inspired concepts with multiple meanings	ret
+protein	Abstract	Basic	Biology-inspired concepts with multiple meanings	ret
+yin-yang	Abstract	Basic	Related to five elements	ret
+wood	Abstract	Basic	Related to five elements	gen
+metal	Abstract	Basic	Related to five elements	ret
+space	Abstract	Basic	Related to five elements	gen
+air	Abstract	Basic	Related to five elements	same
+fire	Abstract	Basic	Related to five elements	same
+water	Abstract	Basic	Related to five elements	same
+earth	Abstract	Basic	Related to five elements	same
+force	Abstract	Basic	Physics concepts	same
+motion	Abstract	Basic	Physics concepts	same
+inertia	Abstract	Basic	Physics concepts	gen
+energy	Abstract	Basic	Physics concepts	same
+black hole	Abstract	Basic	Physics concepts	same
+gravity	Abstract	Basic	Physics concepts	gen
+peace	Abstract	Basic		ret
+fairness	Abstract	Basic		ret
+gender	Abstract	Basic		gen
+intelligence	Abstract	Basic		ret
+bias	Abstract	Basic		ret
+hate	Abstract	Basic		same
+anger	Abstract	Basic		gen
+emotion	Abstract	Basic		ret
+feeling	Abstract	Basic		same
+love	Abstract	Basic		same
+artificial intelligence	Abstract	Basic		same
+meaning of life	Abstract	Basic		ret
+42	Abstract	Basic	Simple numbers but challenging	gen
+0	Abstract	Basic	Simple numbers but challenging	ret
+infinity	Abstract	Basic	Math concepts	ret
+imaginary numbers	Abstract	Basic	Math concepts	same
+Fibonacci number	Abstract	Basic	Math concepts	same
+golden ratio	Abstract	Basic	Math concepts	same
+an F1	Vehicles	Basic		same
+parallel lines	Illustrations	Basic	Math concepts	same
+concentric circles	Illustrations	Basic	Math concepts	ret
+concurrent lines	Illustrations	Basic	Math concepts	gen
+congruent triangles	Illustrations	Basic	Math concepts	same
+a hot air balloon	Vehicles	Basic		ret
+The Starry Night	Arts	Basic		same
+300	Abstract	Basic	Simple numbers but challenging	ret
+101	Abstract	Basic	Simple numbers but challenging	gen
+U.S. 101	World Knowledge	Basic	Simple numbers but challenging	ret
+commonsense	Abstract	Basic		ret
+happiness	Abstract	Basic		same
+hope	Abstract	Basic		ret
+insight	Abstract	Basic		same
+inspiration	Abstract	Basic		ret
+derision	Abstract	Basic		ret
+Salvador Dalí	People	Basic		ret
+a shiba inu	Animals	Basic		gen
+a handpalm	People	Basic		ret
+an espresso machine	Artifacts	Basic		same
+a propaganda poster	Artifacts	Basic		same
+The Oriental Pearl	World Knowledge	Basic	CogView	same
+Ha Long Bay	World Knowledge	Basic		same
+A Vietnam map	World Knowledge	Basic		ret
+A bowl of Pho	Food & Beverage	Basic		same
+a snail	Animals	Basic		same
+brain coral	Animals	Basic		same
+a walnut	Produce & Plants	Basic		ret
+a capybara	Animals	Basic		same
+a baby penguin	Animals	Basic		ret
+a cup of boba	Food & Beverage	Basic		ret
+a photo of san francisco's golden gate bridge	World Knowledge	Basic	DALL-E	same
+A picture of some food in the plate	Food & Beverage	Basic	VQ-Diffusion	gen
+a chair	Artifacts	Basic		same
+the Empire State Building	World Knowledge	Basic		same
+the Sydney Opera House	World Knowledge	Basic		same
+a hedgehog	Animals	Basic		gen
+a corgi	Animals	Basic		ret
+a robot	Artifacts	Basic		gen
+robots	Artifacts	Basic		gen
+a fall landscape	Outdoor Scenes	Basic		gen
+a sunset	Outdoor Scenes	Basic		ret
+a boat	Vehicles	Basic		ret
+a fox	Animals	Basic		gen
+a red cube	Illustrations	Basic		gen
+a panda	Animals	Basic		same
+a space elevator	Artifacts	Basic	GLIDE	same
+a city	Outdoor Scenes	Basic		same
+a fog	Outdoor Scenes	Basic		same
+a clock	Artifacts	Basic		same
+a phone	Artifacts	Basic		same
+food	Food & Beverage	Basic		gen
+a store front	Outdoor Scenes	Basic		gen
+an armchair	Artifacts	Basic		same
+a teapot	Artifacts	Basic		same
+an illustration of a teapot	Artifacts	Basic	DALL-E	ret
+a tiger	Animals	Basic		same
+a bench	Artifacts	Basic		gen
+an orange	Produce & Plants	Basic		same
+a laptop	Artifacts	Basic		same
+an owl	Animals	Basic		ret
+a train	Vehicles	Basic		gen
+a cow	Animals	Basic		same
+a submarine	Vehicles	Basic		gen
+a whale	Animals	Basic		gen
+a t-shirt	Artifacts	Basic		same
+a bowl	Artifacts	Basic		gen
+a flag	Artifacts	Basic		ret
+a cat	Animals	Basic		same
+a towel	Artifacts	Basic		same
+a wall	Artifacts	Basic		same
+a car	Vehicles	Basic		gen
+a giraffe	Animals	Basic		ret
+an eagle	Animals	Basic		ret
+a kangaroo	Animals	Basic		same
+a canal	Outdoor Scenes	Basic		same
+the grand canyon	World Knowledge	Basic		same
+lily pads	Produce & Plants	Basic		same
+a street	Outdoor Scenes	Basic		ret
+a house	Outdoor Scenes	Basic		gen
+a fish	Animals	Basic		same
+a city intersection	Outdoor Scenes	Basic		same
+a circle	Illustrations	Basic		gen
+a red circle	Illustrations	Basic		same
+a box	Illustrations	Basic		same
+a yellow box	Illustrations	Basic		gen
+a red box	Illustrations	Basic		gen
+a sphere	Illustrations	Basic		ret
+a red sphere	Illustrations	Basic		same
+a large blue box	Illustrations	Basic		ret
+a blue metallic sphere	Illustrations	Basic		gen
+a horse	Animals	Basic		same
+a pumpkin	Produce & Plants	Basic		ret
+a sword	Artifacts	Basic		gen
+a statue	Artifacts	Basic		same
+a logo	Illustrations	Basic		ret
+a circular logo	Illustrations	Basic		same
+a coffee mug	Artifacts	Basic		same
+a pig	Animals	Basic		ret
+a squirrel	Animals	Basic		same
+a hammer	Artifacts	Basic		ret
+a screwdriver	Artifacts	Basic		ret
+a handsaw	Artifacts	Basic		ret
+a power drill	Artifacts	Basic		same
+a cocktail	Food & Beverage	Basic		gen
+a margarita	Food & Beverage	Basic		same
+an avocado	Produce & Plants	Basic		same
+a kitchen	Indoor Scenes	Basic		same
+an iPhone case	Artifacts	Basic		ret
+a coffee maker	Artifacts	Basic		same
+a banana	Produce & Plants	Basic		same
+a violin	Artifacts	Basic		same
+a room	Indoor Scenes	Basic		same
+a mountain	Outdoor Scenes	Basic		same
+a bird	Animals	Basic		same
+a TV	Artifacts	Basic		ret
+a Christmas tree	Artifacts	Basic		gen
+The Statue of Liberty	World Knowledge	Basic		same
+the Eiffel Tower	World Knowledge	Basic		same
+a zebra	Animals	Basic		same
+the city of London	World Knowledge	Basic		same
+a koi fish	Animals	Basic		same
+a pineapple	Produce & Plants	Basic		gen
+a toaster	Artifacts	Basic		ret
+a sign	Artifacts	Basic		ret
+a red lego block	Artifacts	Basic		same
+teacup	Artifacts	Basic		same
+chair	Artifacts	Basic		same
+waterfall	Outdoor Scenes	Basic		same
+a pirate ship	Vehicles	Basic		same
+a dragon	Animals	Basic		same
+a present	Artifacts	Basic		same
+a bottle	Artifacts	Basic		same
+a book cover	Illustrations	Basic		gen
+a sweatshirt	Artifacts	Basic		same
+matching socks	Artifacts	Basic		ret
+cash	Artifacts	Basic		gen
+a wood cabin	Indoor Scenes	Basic		same
+a clock tower	Artifacts	Basic		gen
+a chimpanzee	Animals	Basic		same
+a hat	Artifacts	Basic		gen
+sneakers	Artifacts	Basic		same
+a roast turkey	Food & Beverage	Basic		same
+a turkey	Animals	Basic		ret
+a plate	Artifacts	Basic		same
+a ladder	Artifacts	Basic		gen
+a Tyrannosaurus Rex	Animals	Basic		gen
+a Stegasaurus	Animals	Basic		same
+a Triceratops	Animals	Basic		same
+a Styracosaurus	Animals	Basic		gen
+a Diplodocus	Animals	Basic		gen
+a yellow sticky note	Artifacts	Basic		gen
+a ball	Artifacts	Basic		ret
+red balls	Artifacts	Basic		same
+an ostrich	Animals	Basic		same
+a stone path	Outdoor Scenes	Basic		same
+a wooden deck	Outdoor Scenes	Basic		same
+an F1 race car	Vehicles	Basic		same
+a taxi	Vehicles	Basic		same
+a road	Outdoor Scenes	Basic		same
+a volcano	Outdoor Scenes	Basic		same
+a large open book	Artifacts	Basic		ret
+a living room	Indoor Scenes	Basic		ret
+an elephant	Animals	Basic		same
+a tree	Produce & Plants	Basic		same
+a dolphin	Animals	Basic		same
+a rowboat	Vehicles	Basic		gen
+a crown	Artifacts	Basic		gen
+a pick-up truck	Vehicles	Basic		gen
+a key	Artifacts	Basic		ret
+a goat	Animals	Basic		same
+a chest	Artifacts	Basic		same
+a coffee table	Artifacts	Basic		same
+toy cars	Artifacts	Basic		ret
+a bookshelf	Artifacts	Basic		same
+the moon	Outdoor Scenes	Basic		gen
+the Earth	Outdoor Scenes	Basic		same
+the International Space Station	World Knowledge	Basic		same
+the planet Jupiter	Outdoor Scenes	Basic		gen
+a tornado	Outdoor Scenes	Basic		same
+a tidal wave	Outdoor Scenes	Basic		ret
+a laptop screen	Artifacts	Basic		same
+an airplane	Vehicles	Basic		same
+a butterfly	Animals	Basic		same
+a lizard	Animals	Basic		same
+a turtle	Animals	Basic		gen
+an octopus	Animals	Basic		ret
+a book	Artifacts	Basic		same
+a moose	Animals	Basic		same
+a kachina doll	World Knowledge	Basic		gen
+a doorknocker	Artifacts	Basic		gen
+a rabbit	Animals	Basic		same
+orange juice	Food & Beverage	Basic		same
+a green pepper	Food & Beverage	Basic		same
+beer	Food & Beverage	Basic		same
+Times Square	World Knowledge	Basic		same
+the Great Wall	World Knowledge	Basic		same
+the Kremlin	World Knowledge	Basic		same
+a pickup truck	Vehicles	Basic		same
+a shoe	Artifacts	Basic		same
+a plant	Produce & Plants	Basic		same
+a flower	Produce & Plants	Basic		same
+a pair of headphones	Artifacts	Basic		same
+a chemtrail	Outdoor Scenes	Basic		ret
+a tennis court	Outdoor Scenes	Basic		same
+a ceiling fan	Indoor Scenes	Basic		same
+a fire hydrant	Artifacts	Basic		gen
+a wooden post	Artifacts	Basic		gen
+a trash bin	Artifacts	Basic		gen
+a piano	Artifacts	Basic		gen
+a musical note	Illustrations	Basic		gen
+a harp	Artifacts	Basic		gen
+a tuba	Artifacts	Basic		gen
+The Alamo	World Knowledge	Basic		same
+a windmill	Outdoor Scenes	Basic		same
+the geyser Old Faithful	World Knowledge	Basic		gen
+a motorcycle	Vehicles	Basic		gen
+a painting of black and white	Illustrations	Basic		same
+the Great Pyramid	World Knowledge	Basic		same
+the Parthenon	World Knowledge	Basic		same
+the Millennium Wheel	World Knowledge	Basic		same
+a marina	Outdoor Scenes	Basic		same
+a team	People	Basic		gen
+a child	People	Basic		same
+a man	People	Basic		gen
+a woman	People	Basic		same
+a girl	People	Basic		same
+a person	People	Basic		gen
+a boy	People	Basic		same
+a boy and a tiger	People	Basic		same
+a family	People	Basic		same
+a father and a son	People	Basic		same
+a portrait of an old man	People	Basic		same
+a portrait of young girl	People	Basic		same
+a scientist	People	Basic		same
+A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.	Animals	Complex		gen
+A solitary figure shrouded in mists peers up from the cobble stone street at the imposing and dark gothic buildings surrounding it. an old-fashioned lamp shines nearby. oil painting.	Arts	Complex		ret
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump and holding a beer on dark stage.	Animals	Complex		same
+Horses pulling a carriage on the moon's surface, with the Statue of Liberty and Great Pyramid in the background. The Planet Earth can be seen in the sky.	World Knowledge	Complex		same
+A robot painted as graffiti on a brick wall. The words "Fly an airplane" are written on the wall. A sidewalk is in front of the wall, and grass is growing out of cracks in the concrete.	Outdoor Scenes	Complex		ret
+A warrior wombat holding a sword and shield in a fighting stance. The wombat stands in front of the Arc de Triomphe on a day shrouded mist with the sun high in the sky.	World Knowledge	Complex		gen
+A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like dogs. All of the dogs are wearing blue turtlenecks.	Illustrations	Complex		same
+A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like macaroons. All of the macaroons are wearing cowboy hats.	Illustrations	Complex		gen
+A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like colorful macarons. All of the macarons are wearing cowboy hats.	Illustrations	Complex		same
+A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pandas. All of the pandas are wearing colorful sunglasses.	Illustrations	Complex		same
+A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.	Illustrations	Complex		same
+A richly textured oil painting of a young badger delicately sniffing a yellow rose next to a tree trunk. A small waterfall can be seen in the background.	Arts	Complex		gen
+A portrait of a metal statue of a pharaoh wearing steampunk glasses and a leather jacket over a white t-shirt that has a drawing of a space shuttle on it.	World Knowledge	Complex		gen
+A photograph of the inside of a subway train. There are frogs sitting on the seats. One of them is reading a newspaper. The window shows the river in the background.	Vehicles	Complex		ret
+A photograph of the inside of a subway train. There are lobsters sitting on the seats. One of them is reading a newspaper. The window shows the ocean in the background.	Vehicles	Complex		same
+A photograph of the inside of a subway train. There are raccoons sitting on the seats. One of them is reading a newspaper. The window shows the city in the background.	Vehicles	Complex		same
+A photograph of the inside of a subway train. There are red pandas sitting on the seats. One of them is reading a newspaper. The window shows the jungle in the background.	Vehicles	Complex		same
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of abstract cubism.	Arts	Complex		gen
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Egyptian tomp hieroglyphics.	Arts	Complex		same
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Hokusai.	Arts	Complex		same
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Madhubani art.	Arts	Complex		same
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of pixel art.	Arts	Complex		gen
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of pointilism.	Arts	Complex		same
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.	Arts	Complex		gen
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of traditional Chinese painting.	Arts	Complex		gen
+A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Vincent Van Gogh.	Arts	Complex		gen
+A raccoon wearing formal clothes, wearing a top hat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Vincent Van Gogh.	Arts	Complex		gen
+a statue of Abraham Lincoln wearing an opaque and shiny astronaut's helmet. The statue sits on the moon, with the planet Earth in the sky.	World Knowledge	Complex		same
+a portrait of a statue of the Egyptian god Anubis wearing aviator goggles, white t-shirt and leather jacket. The city of Los Angeles is in the background.	World Knowledge	Complex		gen
+A smiling sloth wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book. A shiny VW van with a cityscape painted on it and parked on grass.	World Knowledge	Complex		gen
+A smiling sloth wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book. The sloth stands a few feet in front of a shiny VW van. The van has a cityscape painted on it and parked on grass.	World Knowledge	Complex		same
+A DSLR photo of a shiny VW van that has a cityscape painted on it. A smiling sloth stands on grass in front of the van and is wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book.	World Knowledge	Complex		same
+a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard	Animals	Complex		gen
+a portrait of a statue of anubis with a crown and wearing a yellow t-shirt that has a space shuttle drawn on it	World Knowledge	Complex		gen
+an oil surrealist painting of a dreamworld on a seashore where clocks and watches appear to be inexplicably limp and melting in the desolate landscape. a table on the left, with a golden watch swarmed by ants. a strange fleshy creature in the center of the painting	Arts	Complex	Description of The Persistence of Memory	gen
+a portrait of a statue of the Egyptian god Anubis wearing aviator goggles, white t-shirt and leather jacket. A full moon over the city of Los Angeles is in the background at night.	World Knowledge	Complex		gen
+a portrait of a statue of the Egyptian god Anubis wearing aviator goggles, white t-shirt and leather jacket. the skyline of Los Angeles at night can be seen in the background.	World Knowledge	Complex		gen
+a portrait of a statue of the Egyptian god Anubis wearing aviator goggles, white t-shirt and leather jacket, flying over the city of Mars. 	World Knowledge	Complex		gen
+A photo of the Space Shuttle Endeavor painted yellow and flying over the Earth. The continent of South America is visible.	World Knowledge	Complex		gen
+A close-up photo of a wombat wearing a red backpack and raising both arms in the air. Mount Rushmore is in the background.	World Knowledge	Complex		gen
+A penguin wearing aviator goggles and flying confidently next to a bemused eagle. 	Animals	Complex		same
+A donkey is playing tug-of-war against an octopus. The donkey holds the rope in its mouth. A cat is jumping over the rope.	Animals	Complex		gen
+A wall in a royal castle. There are two paintings on the wall. The one on the left a detailed oil painting of the royal raccoon king. The one on the right a detailed oil painting of the royal raccoon queen. A cute dog looking at the two paintings, holding a sign saying 'plz conserve'	Indoor Scenes	Complex		same
+A single beam of light enter the room from the ceiling. The beam of light is illuminating an easel. On the easel there is a Rembrandt painting of a raccoon	Indoor Scenes	Complex		same
+The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.	World Knowledge	Complex		gen
+A train ride in the monsoon rain in Kerala. With a Koala bear wearing a hat looking out of the window. There is a lot of coconut trees out of the window.	World Knowledge	Complex		same
+A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.	World Knowledge	Complex		gen
+An oil painting of two rabbits in the style of American Gothic, wearing the same clothes as in the original.	Arts	Complex		same
+a blue cow is standing next to a tree with red leaves and yellow fruit. the cow is standing in a field with white flowers. impressionistic painting	Animals	Complex		gen
+A wombat sits in a yellow beach chair, while sipping a martini that is on his laptop keyboard. The wombat is wearing a white panama hat and a floral Hawaiian shirt. Out-of-focus palm trees in the background.	Animals	Complex		gen
+A high-contrast photo of a panda riding a horse. The panda is wearing a wizard hat and is reading a book. The horse is standing on a street against a gray concrete wall. Colorful flowers and the word "PEACE" are painted on the wall. Green grass grows from cracks in the street.	Animals	Complex		same
+The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.	World Knowledge	Complex		gen
+Anime illustration of the Great Pyramid sitting next to the Parthenon under a blue night sky of roiling energy, exploding yellow stars, and chromatic blue swirls	World Knowledge	Complex		gen
+An anime illustration of Sydney Opera House sitting next to Eiffel tower, under a blue night sky of roiling energy, exploding yellow stars, and radiating swirls of blu	World Knowledge	Complex		same
+A close-up high-contrast photo of Sydney Opera House sitting next to Eiffel tower, under a blue night sky of roiling energy, exploding yellow stars, and radiating swirls of blue	World Knowledge	Complex		ret
+the Sydney Opera House with the Eiffel tower sitting on the right, and Mount Everest rising above	World Knowledge	Complex		same
+Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.	People	Complex		ret
+a robot painted as graffiti on a brick wall. a sidewalk is in front of the wall, and grass is growing out of cracks in the concrete.	Outdoor Scenes	Complex		ret
+a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.	People	Complex		gen
+a real flamingo reading a large open book. a big stack of books is piled up next to it. dslr photograph.	Animals	Complex		gen
+A photo of a hamburger fighting a hot dog in a boxing ring. The hot dog is tired and up against the ropes.	Food & Beverage	Complex		gen
+a blue cow is standing next to a tree with red leaves and yellow fruit. the cow is standing in a field with white flowers. impressionistic painting.	Animals	Complex		gen
+A cozy living room with a painting of a corgi on the wall above a couch and a round coffee table in front of a couch and a vase of flowers on a coffee table	Indoor Scenes	Complex		same
+Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.	Outdoor Scenes	Complex		same
+A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.	Indoor Scenes	Complex		gen
+A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.	Animals	Complex		same
+a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.	People	Complex		same
+a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand	Animals	Complex		gen
+An empty fireplace with a television above it. The TV shows a lion hugging a giraffe.	Indoor Scenes	Complex		same
+an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone	People	Complex		ret
+a blue semi-truck and its trailer jumping over a row of motorcycles. there are metal ramps on either side of the motorcycles. 	Vehicles	Complex		same
+a white rabbit in blue jogging clothes doubled over in pain while a turtle wearing a red tank top dashes confidently through the finish line	Animals	Complex		same
+a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky	Vehicles	Complex		same
+a photograph of a fiddle next to a basketball on a ping pong table	Artifacts	Complex		same
+a racoon detective using a microscope while riding in a train	Animals	Complex		same
+a photograph of an ostrich wearing a fedora and singing soulfully into a microphone	Animals	Complex		same
+a cream-colored labradoodle wearing glasses and black beret teaching calculus at a blackboard	Animals	Complex		same
+a basketball to the left of two soccer balls on a gravel driveway	Artifacts	Complex		gen
+a cat patting a crystal ball with the number 7 written on it in black marker	Animals	Complex		same
+a cat licking a large felt ball with a drawing of the Eiffel Tower on it	World Knowledge	Complex		gen
+a giraffe wearing a white bathing suit and carefully stepping to the edge of a diving board and preparing to dive	Animals	Complex		same
+a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs	Artifacts	Complex		ret
+a mixed media image with a photograph of a woman with long orange hair over a background that is a sketch of a city skyline	People	Complex		gen
+a black and orange yin-yang symbol with tiger's heads instead of circles	Illustrations	Complex		gen
+a painting of an ornate treasure chest with a broad sword propped up against it, glowing in a dark cave	Arts	Complex		ret
+Renaissance portrayals of the Virgin Mary, seated in a loggia. Behind her is a hazy and seemingly isolated landscape imagined by the artist and painted using sfumato.	People	Complex	Description of Mona Lisa	gen
+Oil-on-canvas painting of a blue night sky with roiling energy. A fuzzy and bright yellow crescent moon shining at the top. Below the exploding yellow stars and radiating swirls of blue, a distant village sits quietly on the right. Connecting earth and sky is a flame-like cypress tree with curling and swaying branches on the left. A church spire rises as a beacon over rolling blue hills	Arts	Complex	Description of The Starry Night	same
+Painting of a panic-stricken creature, simultaneously corpselike and reminiscent of a sperm or fetus, whose contours are echoed in the swirling lines of the blood-red sky	Arts	Complex	Description of The Scream	same
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese	Artifacts	Complex	DALL-E 2	same
+a white bird in front of a dinosaur standing by some trees	Outdoor Scenes	Complex		same
+Snow mountain and tree reflection in the lake	Outdoor Scenes	Complex	VQ-Diffusion	gen
+a white robot, a red robot and a black robot standing together	Artifacts	Complex		ret
+a tree reflected in the hood of a blue car	Produce & Plants	Complex		same
+a tree reflected in the sunroof of a blue car	Produce & Plants	Complex		gen
+a monarch butterfly hatching from its chrysalis	Animals	Complex		ret
+a glass of orange juice to the right of a plate with buttered toast on it	Food & Beverage	Complex		ret
+a bottle of beer next to an ashtray with a half-smoked cigarrette	Food & Beverage	Complex		same
+a pineapple with one beer to its left and two beers on its right	Food & Beverage	Complex		same
+a pickup truck with a horse on its left and two dogs on its right	Vehicles	Complex		gen
+a brown trash bin with a green compost bin on its left and a blue recycling bin on its right	Artifacts	Complex		same
+a woman with long hair next to a luminescent bird	People	Complex		ret
+a tall man stooping down to enter a low red sports car	People	Complex		same
+a black dog jumping up to hug a woman wearing a red sweater	People	Complex		gen
+a man and a woman standing in the back up an old pickup truck	People	Complex		gen
+a boy sitting on the shoulders of a woman who is wearing an elegant dress	People	Complex		ret
+a girl with curly black hair jumping off a boulder	People	Complex		gen
+a grandmother reading a book to her grandson and granddaughter	People	Complex		ret
+a young woman with glasses reading a thick book at a mahogany desk	People	Complex		ret
+a man in a business suit on a ladder that is leaning up against the side of a white house	People	Complex		gen
+a man pouring milk into a coffee cup to make a latte with a beatiful design	People	Complex		gen
+a woman using a sledgehammer to smash an ice sculpture of a goose	People	Complex		same
+a painting of the mona lisa on a white wall	World Knowledge	Complex		same
+a man eating a glazed donut and a woman eating a chocolate cake	People	Complex		same
+A teddy bear wearing a motorcycle helmet and cape is standing in front of Loch Awe with Kilchurn Castle behind him	World Knowledge	Fine-grained Detail		same
+A teddy bear wearing a motorcycle helmet and cape is driving a speed boat near the Golden Gate Bridge	World Knowledge	Fine-grained Detail		gen
+A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City	World Knowledge	Fine-grained Detail		gen
+A teddy bear wearing a motorcycle helmet and cape is riding a motorcycle in Rio de Janeiro with Dois Irmãos in the background	World Knowledge	Fine-grained Detail		ret
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump	Animals	Fine-grained Detail		gen
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad	Animals	Fine-grained Detail		ret
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a boulder	Animals	Fine-grained Detail		gen
+A punk rock frog in a studded leather jacket shouting into a microphone while standing on a stump	Animals	Fine-grained Detail		same
+A punk rock frog in a studded leather jacket shouting into a microphone while standing on a lily pad	Animals	Fine-grained Detail		gen
+A punk rock frog in a studded leather jacket shouting into a microphone while standing on a boulder	Animals	Fine-grained Detail		gen
+A punk rock platstumppus in a studded leather jacket shouting into a microphone while standing on a stump	Animals	Fine-grained Detail		same
+A punk rock platypus in a studded leather jacket shouting into a microphone while standing on a lily pad	Animals	Fine-grained Detail		gen
+A punk rock platypus in a studded leather jacket shouting into a microphone while standing on a boulder	Animals	Fine-grained Detail		gen
+A map of the United States made out sushi. It is on a table next to a glass of red wine.	World Knowledge	Fine-grained Detail		same
+A blue Porsche 356 parked in front of a yellow brick wall	World Knowledge	Fine-grained Detail		same
+A helicopter flies over the Arches National Park.	World Knowledge	Fine-grained Detail		gen
+A helicopter flies over the Grand Canyon.	World Knowledge	Fine-grained Detail		ret
+A helicopter flies over Yosemite.	World Knowledge	Fine-grained Detail		same
+A sunken ship becomes the homeland of fish.	Vehicles	Fine-grained Detail		same
+ A sloth in a go kart on a race track. The sloth is holding a banana in one hand. There is a banana peel on the track in the background.	Animals	Fine-grained Detail		gen
+a photograph of a bird wearing headphones and speaking into a microphone in a recording studio	Animals	Fine-grained Detail		ret
+A teddybear on a skateboard in Times Square, doing tricks on a cardboard box ramp.	World Knowledge	Fine-grained Detail		gen
+A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass.	World Knowledge	Fine-grained Detail		ret
+A smiling sloth wearing a bowtie and holding a quarterstaff and a big book.	Animals	Fine-grained Detail		same
+A smiling sloth wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book.	Animals	Fine-grained Detail		same
+A smiling sloth wearing a leather jacket, a cowboy hat and a kilt.	Animals	Fine-grained Detail		gen
+A shiny VW van with a cityscape painted on it and parked on grass.	World Knowledge	Fine-grained Detail		same
+The Statue of Liberty with the Manhattan skyline in the background.	World Knowledge	Fine-grained Detail		same
+a cream colored labradoodle next to a white cat with black-tipped ears	Animals	Fine-grained Detail		same
+The Great Pyramid of Giza situated in front of Mount Everest	World Knowledge	Fine-grained Detail		same
+A photo of a Ming Dynasty vase on a leather topped table.	World Knowledge	Fine-grained Detail		same
+A table full of food. There is a plate of chicken rice, a bowl of bak chor mee, and a bowl of laksa.	Food & Beverage	Fine-grained Detail		ret
+A map of the United States with a pin on San Francisco	World Knowledge	Fine-grained Detail		same
+A map of the United States made out of sushi on the table.	World Knowledge	Fine-grained Detail		gen
+a cute wooden owl statue holding a large globe of the Earth above its head	Animals	Fine-grained Detail		gen
+a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.	People	Fine-grained Detail		same
+the mona lisa wearing a cowboy hat and screaming a punk song into a microphone	People	Fine-grained Detail		ret
+a young badger delicately sniffing a yellow rose, richly textured oil painting	Arts	Fine-grained Detail		gen
+a photograph of a blue porsche 356 coming around a bend in the road	Vehicles	Fine-grained Detail		gen
+fairy cottage with smoke coming up chimney and a squirrel looking from the window	Outdoor Scenes	Fine-grained Detail		gen
+purple lego dollhouse with a pool and a swing	Artifacts	Fine-grained Detail		gen
+black bearded dog with an injured leg wearing a cone	Animals	Fine-grained Detail		ret
+brown white and black white guinea pigs eating parsley handed to them	Animals	Fine-grained Detail		gen
+The Rosetta Stone lying on the ground, covered in snow.	World Knowledge	Fine-grained Detail		same
+a high-quality photograph of an armadillo playing a bagpipe while standing on one leg	Animals	Fine-grained Detail		same
+a white robot with a red mohawk painted as graffiti on a red brick wall	Artifacts	Fine-grained Detail		same
+a panda bear playing ping pong using a blue paddle against an ostrich using a red paddle	Animals	Fine-grained Detail		gen
+Anubis wearing sunglasses and sitting astride a hog motorcyle	World Knowledge	Fine-grained Detail		gen
+a photograph of sand with a bucket, lots of scattered shells but no sandpipers	Outdoor Scenes	Fine-grained Detail		gen
+a shiba inu wearing a beret and black turtleneck	Animals	Fine-grained Detail	DALL-E 2	gen
+a handpalm with leaves growing from it	People	Fine-grained Detail	DALL-E 2	ret
+panda mad scientist mixing sparkling chemicals	Animals	Fine-grained Detail	DALL-E 2	gen
+a corgi’s head depicted as an explosion of a nebula	Animals	Fine-grained Detail	DALL-E 2	gen
+a dolphin in an astronaut suit on saturn	Animals	Fine-grained Detail	DALL-E 2	same
+a teddy bear on a skateboard in times square	World Knowledge	Fine-grained Detail	DALL-E 2	gen
+A Big Ben clock towering over the city of London	World Knowledge	Fine-grained Detail	CogView	same
+A Vietnam map showing Ha Long Bay	World Knowledge	Fine-grained Detail		gen
+A bowl of Pho served with bean sprouts on top	Food & Beverage	Fine-grained Detail		ret
+a capybara sitting in a field	Animals	Fine-grained Detail	DALL-E	same
+a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants	Animals	Fine-grained Detail	DALL-E	ret
+a collection of glasses is sitting on a table	Artifacts	Fine-grained Detail	DALL-E	same
+A bare kitchen has wood cabinets and white appliances	Indoor Scenes	Fine-grained Detail	VQ-Diffusion	same
+A black and white landscape photograph of a black tree	Outdoor Scenes	Fine-grained Detail	VQ-Diffusion	same
+an ornate, high-backed mahogany chair with a red cushion	Artifacts	Fine-grained Detail		same
+a whale breaching in front of the Sydney Opera House	World Knowledge	Fine-grained Detail		gen
+a white country home with a wrap-around porch	Outdoor Scenes	Fine-grained Detail		same
+a corgi wearing a red bowtie and a purple party hat	Animals	Fine-grained Detail	GLIDE	gen
+robots meditating in a vipassana retreat	Artifacts	Fine-grained Detail	GLIDE	gen
+a white robot passing a soccer ball to a red robot	Artifacts	Fine-grained Detail		gen
+a fall landscape with a small cottage next to a lake	Outdoor Scenes	Fine-grained Detail	GLIDE	ret
+a cat looking out of a window at a squirrel on a fence	Animals	Fine-grained Detail		ret
+a white cat with black ears and markings	Animals	Fine-grained Detail		gen
+a white cat and a tabby cat looking at each other	Animals	Fine-grained Detail		same
+a cat sitting on a stairway railing	Animals	Fine-grained Detail		same
+a professional photo of a sunset behind the grand canyon	Outdoor Scenes	Fine-grained Detail	GLIDE	gen
+a large white yacht in a calm bay on a sunny day	Vehicles	Fine-grained Detail		gen
+a large white yacht tossed about in a stormy sea	Vehicles	Fine-grained Detail		ret
+a baby daikon radish in a tutu walking a dog	Produce & Plants	Fine-grained Detail	DALL-E	same
+an illustration of a baby daikon radish in a tutu walking a dog	Produce & Plants	Fine-grained Detail	DALL-E	same
+a long wooden bench in front of a brick wall	Artifacts	Fine-grained Detail		ret
+an ornate metal bench by a nature path	Outdoor Scenes	Fine-grained Detail		same
+a white plastic bench with a high arched back	Artifacts	Fine-grained Detail		gen
+a tall horse next to a red car	Animals	Fine-grained Detail		gen
+an owl standing on a wire	Animals	Fine-grained Detail		gen
+an owl standing on a telephone wire	Animals	Fine-grained Detail		gen
+the skyline of New York City	World Knowledge	Fine-grained Detail		same
+beautiful fireworks in the sky with red, white and blue	Outdoor Scenes	Fine-grained Detail		same
+a steam locomotive speeding through a desert	Vehicles	Fine-grained Detail		ret
+a submarine floating past a shark	Vehicles	Fine-grained Detail		gen
+a whale breaching near a mountain	Animals	Fine-grained Detail		ret
+the United States flag next to the flag of Texas	World Knowledge	Fine-grained Detail		ret
+a giraffe with an owl on its head	Animals	Fine-grained Detail		gen
+an owl on top of an elephant's back	Animals	Fine-grained Detail		gen
+an eagle swooping down to catch a mouse	Animals	Fine-grained Detail		same
+an owl with its wings spread out swooping over a tree	Animals	Fine-grained Detail		same
+a giraffe eating the bark of a tree	Animals	Fine-grained Detail		ret
+a car and a truck on the road next to a traffic light	Vehicles	Fine-grained Detail		same
+a cityscape at night with a full moon	Outdoor Scenes	Fine-grained Detail		gen
+an owl gripping a squirrel in its talons	Animals	Fine-grained Detail		ret
+a bloody mary cocktail next to a napkin	Food & Beverage	Fine-grained Detail		gen
+an old-fashioned cocktail next to a napkin	Food & Beverage	Fine-grained Detail		gen
+a long-island ice tea cocktail next to a napkin	Food & Beverage	Fine-grained Detail		same
+a margarita next to a napkin	Food & Beverage	Fine-grained Detail		gen
+a room with two chairs and a painting of the Statue of Liberty	Indoor Scenes	Fine-grained Detail		gen
+a mountain and its reflection in a lake	Outdoor Scenes	Fine-grained Detail		same
+a bird and its reflection in a fountain	Outdoor Scenes	Fine-grained Detail		same
+The Statue of Liberty on a cloudy day	World Knowledge	Fine-grained Detail		gen
+The Statue of Liberty surrounded by helicopters	World Knowledge	Fine-grained Detail		same
+the Eiffel Tower in winter	World Knowledge	Fine-grained Detail		ret
+a sunken ship at the bottom of the ocean	Vehicles	Fine-grained Detail		same
+a sunken submarine at the bottom of the ocean	Vehicles	Fine-grained Detail		same
+the Eiffel Tower in a desert	World Knowledge	Fine-grained Detail		same
+Golden Gate bridge on the surface of Mars	World Knowledge	Fine-grained Detail		same
+the city of London on Mars	World Knowledge	Fine-grained Detail		same
+the city of London on the moon	World Knowledge	Fine-grained Detail		ret
+a stop sign with a large tree behind it	Artifacts	Fine-grained Detail		same
+a stop sign knocked over on a sidewalk	Artifacts	Fine-grained Detail		ret
+teacups surounding a kettle	Artifacts	Fine-grained Detail		gen
+a dragon breathing fire	Animals	Fine-grained Detail		same
+a dragon breathing fire on a castle	Animals	Fine-grained Detail		same
+a dragon breathing fire onto a knight	Animals	Fine-grained Detail		ret
+a view of the Big Dipper in the night sky	World Knowledge	Fine-grained Detail		gen
+a view of the Orion constellation in the night sky	World Knowledge	Fine-grained Detail		gen
+a teddy bear to the right of a toy car	Artifacts	Fine-grained Detail		ret
+a toy car in front of a teddy bear	Artifacts	Fine-grained Detail		gen
+a large present with a red ribbon	Artifacts	Fine-grained Detail		ret
+a large present with a red ribbon to the left of a Christmas tree	Indoor Scenes	Fine-grained Detail		gen
+a half empty bottle of red wine	Food & Beverage	Fine-grained Detail		gen
+a wine bottle with a lit candle stuck in its spout	Food & Beverage	Fine-grained Detail		same
+a wine bottle with a red ribbon wrapped around it	Food & Beverage	Fine-grained Detail		gen
+a kids' book cover with an illustration of white dog driving a red pickup truck	Illustrations	Fine-grained Detail		gen
+milk pouring into a large glass	Food & Beverage	Fine-grained Detail		same
+milk pouring from a glass into a bowl	Food & Beverage	Fine-grained Detail		gen
+matching socks with cute cats on them	Artifacts	Fine-grained Detail		same
+cash on a wooden table	Artifacts	Fine-grained Detail		gen
+a wood cabin with a fire pit in front of it	Indoor Scenes	Fine-grained Detail		same
+view of a clock tower on a cloudy day	Artifacts	Fine-grained Detail		same
+a chimpanzee wearing a bowtie and playing a piano	Animals	Fine-grained Detail		same
+a black baseball hat with a flame decal on it	Artifacts	Fine-grained Detail		same
+black hi-top sneakers with the Nike swoosh	Artifacts	Fine-grained Detail		gen
+a roast turkey being taken out of the oven	Food & Beverage	Fine-grained Detail		ret
+a bamboo ladder propped up against an oak tree	Artifacts	Fine-grained Detail		gen
+a Tyrannosaurus Rex roaring in front of a palm tree	Animals	Fine-grained Detail		same
+a Stegasaurus eating ferns	Animals	Fine-grained Detail		gen
+a Triceratops charging down a hill	Animals	Fine-grained Detail		gen
+a Styracosaurus displaying its horns	Animals	Fine-grained Detail		gen
+a Diplodocus standing in a lake	Animals	Fine-grained Detail		ret
+a tabby cat coming through a door	Animals	Fine-grained Detail		gen
+a cat's tail showing under a couch	Animals	Fine-grained Detail		gen
+a light shining on a giraffe in a street	Animals	Fine-grained Detail		gen
+a barred owl peeking out from dense tree branches	Animals	Fine-grained Detail		same
+a great gray owl with a mouse in its beak	Animals	Fine-grained Detail		same
+a snowy owl standing in a grassy field	Animals	Fine-grained Detail		ret
+a stone path leading away from a fountain	Outdoor Scenes	Fine-grained Detail		same
+a wooden deck overlooking a mountain valley	Outdoor Scenes	Fine-grained Detail		same
+a mouse sitting next to a computer mouse	Animals	Fine-grained Detail		gen
+a tiny dragon landing on a knight's shield	Animals	Fine-grained Detail		same
+an F1 race car in a Manhattan street	World Knowledge	Fine-grained Detail		same
+a chess queen to the right of a chess knight	Artifacts	Fine-grained Detail		ret
+a white pawn attacking a black bishop	Artifacts	Fine-grained Detail		gen
+a mountain stream with salmon leaping out of it	Outdoor Scenes	Fine-grained Detail		same
+a living room with a large Egyptian statue in the corner	Indoor Scenes	Fine-grained Detail		gen
+a stone bust next to an egg and an eggplant	Artifacts	Fine-grained Detail		same
+scraps of paper drifting in the wind	Outdoor Scenes	Fine-grained Detail		ret
+the silhouette of an elephant on the full moon	Animals	Fine-grained Detail		same
+a tree growing out of the middle of an intersection	Outdoor Scenes	Fine-grained Detail		same
+a can of Spam on an elegant plate	Food & Beverage	Fine-grained Detail		gen
+a dolphin jumping over a rowboat	Animals	Fine-grained Detail		gen
+a pick-up truck rolling over a grassy field	Vehicles	Fine-grained Detail		same
+a drop-top sports car coming around a bend in the road	Vehicles	Fine-grained Detail		gen
+the Taj Mahal at sunrise	World Knowledge	Fine-grained Detail		ret
+a small garden with an apple tree behind it	Produce & Plants	Fine-grained Detail		gen
+a old-time car with a large front grille	Vehicles	Fine-grained Detail		ret
+a blue wall with a large framed watercolor painting of a mountain	Indoor Scenes	Fine-grained Detail		same
+a yellow wall with a large framed oil painting of a car	Indoor Scenes	Fine-grained Detail		gen
+an old-fashioned phone next to a sleek laptop	Artifacts	Fine-grained Detail		same
+a motorcycle parked in an ornate bank lobby	Vehicles	Fine-grained Detail		same
+a hot air balloon landing in a corn field	Vehicles	Fine-grained Detail		gen
+a wooden toy horse with a mane made of rope	Artifacts	Fine-grained Detail		gen
+a beach with a cruise ship passing by	Outdoor Scenes	Fine-grained Detail		gen
+a group of penguins in a snowstorm	Animals	Fine-grained Detail		ret
+a Scottish castle next to a loch	World Knowledge	Fine-grained Detail		same
+a full moon peeking through clouds at night	Outdoor Scenes	Fine-grained Detail		same
+a crescent moon viewed between tree branches at night	Outdoor Scenes	Fine-grained Detail		same
+a full moon rising above a mountain at night	Outdoor Scenes	Fine-grained Detail		gen
+the International Space Station flying in front of the moon	World Knowledge	Fine-grained Detail		gen
+a tornado passing over a corn field	Outdoor Scenes	Fine-grained Detail		gen
+a tidal wave approaching a coastal road	Outdoor Scenes	Fine-grained Detail		same
+an antique car by a beach	Vehicles	Fine-grained Detail		ret
+a water tower next to a deserted road	Outdoor Scenes	Fine-grained Detail		ret
+a small airplane flying over rolling hills	Vehicles	Fine-grained Detail		gen
+an airplane flying into a cloud that looks like monster	Vehicles	Fine-grained Detail		gen
+a blue airplane taxiing on a runway with the sun behind it	Vehicles	Fine-grained Detail		same
+a car with tires that have yellow rims	Vehicles	Fine-grained Detail		gen
+a turtle upside down and spinning on its shell	Animals	Fine-grained Detail		ret
+an octopus fleeing and squirting black ink	Animals	Fine-grained Detail		gen
+a moose by a mountain stream	Animals	Fine-grained Detail		same
+a kachina doll with feathers on its head and wearing a white dress and brown boots.	World Knowledge	Fine-grained Detail		gen
+a kachina doll standing in sand	World Knowledge	Fine-grained Detail		gen
+a doorknocker shaped like a lion's head	Artifacts	Fine-grained Detail		same
+a silver doorknocker on a mahoghany door	Artifacts	Fine-grained Detail		same
+a rabbit with white fur and black-tipped ears	Animals	Fine-grained Detail		same
+a glass of orange juice next to an empty pitcher	Food & Beverage	Fine-grained Detail		ret
+a glass of orange juice with an orange peel stuck on the rim	Food & Beverage	Fine-grained Detail		same
+a bottle of light beer with a lemon slice wedged in the rim	Food & Beverage	Fine-grained Detail		same
+a helicopter hovering over Times Square	World Knowledge	Fine-grained Detail		ret
+a traffic jam at Times Square	World Knowledge	Fine-grained Detail		same
+a prop plane flying low over the Great Wall	World Knowledge	Fine-grained Detail		gen
+a view of the Kremlin on a sunny day	World Knowledge	Fine-grained Detail		same
+a view of the Kremlin with snow falling	World Knowledge	Fine-grained Detail		same
+a palm tree forest in front of the Kremlin	World Knowledge	Fine-grained Detail		gen
+a Ferrari Testarossa in front of the Kremlin	World Knowledge	Fine-grained Detail		gen
+a rusty red pickup truck with white wheel rims	Vehicles	Fine-grained Detail		gen
+a blue pickup truck with a rhinoceros in its flatbed	Vehicles	Fine-grained Detail		gen
+an orange pickup truck next to a yellow Porsche 911	Vehicles	Fine-grained Detail		gen
+a pickup truck kicking up dust on a back road	Vehicles	Fine-grained Detail		same
+a pickup truck going up a mountain switchback	Vehicles	Fine-grained Detail		gen
+a pickup truck at the beach at sunrise	Vehicles	Fine-grained Detail		same
+a pickup truck under street lights at night	Vehicles	Fine-grained Detail		gen
+a pair of shoes on a tennis racquet	Artifacts	Fine-grained Detail		ret
+a shoe with a sock draped over it	Artifacts	Fine-grained Detail		gen
+a plant growing on the side of a brick wall	Produce & Plants	Fine-grained Detail		gen
+a plant at the bottom of a shallow stream	Produce & Plants	Fine-grained Detail		gen
+a cow eating a green leafy plant	Animals	Fine-grained Detail		same
+a bundle of blue and yellow flowers in a vase	Produce & Plants	Fine-grained Detail		same
+a horse chewing a large blue flower	Animals	Fine-grained Detail		same
+a yellow diamond-shaped sign with a deer silhouette	Artifacts	Fine-grained Detail		ret
+a yellow diamond-shaped sign with a turtle silhouette	Artifacts	Fine-grained Detail		gen
+a yellow diamond-shaped sign with a puma silhouette	Artifacts	Fine-grained Detail		same
+a yellow diamond-shaped sign with a wooly mammoth silhouette	Artifacts	Fine-grained Detail		same
+a pair of headphones on a pumpkin	Artifacts	Fine-grained Detail		ret
+a pair of headphones on a guitar	Artifacts	Fine-grained Detail		gen
+a pair of headphones on a statue of a horse	Artifacts	Fine-grained Detail		ret
+a pair of headphones dangling from a tree branch	Artifacts	Fine-grained Detail		gen
+a car's wheel crushing a pair of headphones	Vehicles	Fine-grained Detail		same
+a chemtrail passing between two clouds	Outdoor Scenes	Fine-grained Detail		same
+a long chemtrail trailing an airplane in a blue sky	Outdoor Scenes	Fine-grained Detail		ret
+a tennis court with a basketball hoop in one corner	Outdoor Scenes	Fine-grained Detail		same
+a tennis court that is very wet from lots of rain	Outdoor Scenes	Fine-grained Detail		ret
+a rocking chair next to the net of a tennis court	Outdoor Scenes	Fine-grained Detail		gen
+a ceiling fan with an ornate light fixture	Indoor Scenes	Fine-grained Detail		same
+red and yellow balloons hanging from a ceiling fan	Indoor Scenes	Fine-grained Detail		gen
+a sidewalk next to a wooden post with a blue '5' painted on top	Outdoor Scenes	Fine-grained Detail		ret
+a harp with a carved eagle figure at the top	Artifacts	Fine-grained Detail		ret
+a tuba with red flowers protruding from its bell	Artifacts	Fine-grained Detail		ret
+an elephant using its trunk to blow into a tuba	Animals	Fine-grained Detail		gen
+The Alamo with bright white clouds above it	World Knowledge	Fine-grained Detail		gen
+a flock of geese in front of The Alamo	World Knowledge	Fine-grained Detail		same
+an old-fashioned windmill surrounded by flowers	Outdoor Scenes	Fine-grained Detail		gen
+a windmill farm next to a country road	Outdoor Scenes	Fine-grained Detail		same
+a family of bears passing by the geyser Old Faithful	World Knowledge	Fine-grained Detail		gen
+an old red truck parked by the geyser Old Faithful	World Knowledge	Fine-grained Detail		gen
+an inflatable rabbit held up in the air by the geyser Old Faithful	World Knowledge	Fine-grained Detail		gen
+a Harley-Davidson motorcycle with a flame decal	Vehicles	Fine-grained Detail		same
+a motorcycle in front of an rhinoceros	Vehicles	Fine-grained Detail		ret
+a chopper decorated with the Stars and Stripes	Vehicles	Fine-grained Detail		gen
+a painting of black and white with a red flower in the right corner	Illustrations	Fine-grained Detail		same
+a gorilla climbing up the side of the Great Pyramid	World Knowledge	Fine-grained Detail		gen
+a beat-up truck at the base of the Great Pyramid	World Knowledge	Fine-grained Detail		same
+snow covering the Great Pyramid	World Knowledge	Fine-grained Detail		ret
+the sun setting behind the Parthenon	World Knowledge	Fine-grained Detail		gen
+fireworks above the Parthenon	World Knowledge	Fine-grained Detail		gen
+the Millennium Wheel in a snow storm	World Knowledge	Fine-grained Detail		gen
+a marina with a herd of dolphins playing in it	Outdoor Scenes	Fine-grained Detail		gen
+a volcano exploding next to a marina	Outdoor Scenes	Fine-grained Detail		gen
+a team playing baseball at the beach	People	Fine-grained Detail		ret
+a man standing on a street corner	People	Fine-grained Detail		ret
+a crowd of people watching fireworks by a park	People	Fine-grained Detail		same
+a crowd of people watching fireworks by a city	People	Fine-grained Detail		same
+a smiling man with wavy brown hair and trimmed beard	People	Fine-grained Detail		ret
+a woman with long black hair and dark skin	People	Fine-grained Detail		gen
+a woman with long black hair and dark skin in a long white dress	People	Fine-grained Detail		same
+a man with long blonde hair, brown eyes and blue jeans	People	Fine-grained Detail		same
+an elderly woman with straight hair and metal-rimmed glasses	People	Fine-grained Detail		same
+a man wearing sunglasses and business suit	People	Fine-grained Detail		same
+a girl with long curly blonde hair and sunglasses	People	Fine-grained Detail		gen
+an old man with a long grey beard and green eyes	People	Fine-grained Detail		gen
+a woman with tan skin in blue jeans and yellow shirt	People	Fine-grained Detail		gen
+a woman with a dog puppet and a cat puppet	People	Fine-grained Detail		same
+a group of skiers are preparing to walk up a sand dune	People	Fine-grained Detail		same
+a child eating a birthday cake near some palm trees	People	Fine-grained Detail		gen
+a man with wild hair looking into a crystal ball	People	Fine-grained Detail		same
+Gandalf saying you shall not pass	World Knowledge	Fine-grained Detail		same
+a mosquito biting a man	People	Fine-grained Detail		gen
+a witch riding a broom	People	Fine-grained Detail		same
+a knight holding a long sword	People	Fine-grained Detail		same
+a man reading a book with a prism on its cover	People	Fine-grained Detail		same
+a cricket team walking on to the pitch	People	Fine-grained Detail		same
+a cricketer standing next to a wicket	People	Fine-grained Detail		same
+an elder politician giving a campaign speech	People	Fine-grained Detail		same
+a young girl playing piano	People	Fine-grained Detail		same
+a girl getting a kite out of a tree	People	Fine-grained Detail		gen
+a politician giving a speech at a podium	People	Fine-grained Detail		same
+a politician speaking to a large crowd	People	Fine-grained Detail		same
+a child in the air while jumping on a trampoline	People	Fine-grained Detail		ret
+the Beatles crossing Abbey road	People	Fine-grained Detail		same
+a girl riding an ostrich	People	Fine-grained Detail		ret
+a river with people swimming in it as a boat goes by	People	Fine-grained Detail		ret
+a selfie of an old man with a white beard	People	Fine-grained Detail		gen
+a young girl wearing a tiara and frilly dress	People	Fine-grained Detail		gen
+a ballet dancer next to a waterfall	People	Fine-grained Detail		gen
+a judge delivering a sentence to the defendant	People	Fine-grained Detail		ret
+people packed on a double-decker bus	People	Fine-grained Detail		ret
+a man riding a camel on the beach	People	Fine-grained Detail		gen
+a woman singing into a microphone	People	Fine-grained Detail		same
+a child unraveling a roll of toilet paper	People	Fine-grained Detail		gen
+a girl examining an ammonite fossil	People	Fine-grained Detail		same
+a fairy flying over a girl's shoulder	People	Fine-grained Detail		gen
+Tibetan priests ringing a bell	People	Fine-grained Detail		same
+a man sleeping in a hammock	People	Fine-grained Detail		same
+a library filled with kids reading books	People	Fine-grained Detail		gen
+a scientist accepting an award	People	Fine-grained Detail		gen
+A tornado made of sharks crashing into a skyscraper. painting in the style of Hokusai.	Arts	Imagination		gen
+A tornado made of sharks crashing into a skyscraper. painting in the style of abstract cubism.	Arts	Imagination		ret
+A tornado made of sharks crashing into a skyscraper. painting in the style of watercolor.	Arts	Imagination		gen
+A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.	Arts	Imagination		ret
+A tornado made of tigers crashing into a skyscraper. painting in the style of abstract cubism.	Arts	Imagination		gen
+A tornado made of tigers crashing into a skyscraper. painting in the style of watercolor.	Arts	Imagination		same
+A tornado made of bees crashing into a skyscraper. painting in the style of Hokusai.	Arts	Imagination		gen
+A tornado made of bees crashing into a skyscraper. painting in the style of abstract cubism.	Arts	Imagination		same
+A tornado made of bees crashing into a skyscraper. painting in the style of watercolor.	Arts	Imagination		gen
+A television made of water that displays an image of a cityscape at night.	Artifacts	Imagination		same
+A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.	Artifacts	Imagination		gen
+A shiny robot wearing a race car suit and black visor stands proudly in front of an F1 race car. The sun is setting on a cityscape in the background. comic book illustration.	Illustrations	Imagination		ret
+A horse sitting on an astronaut's shoulders.	People	Imagination		same
+The collision of two black holes in the center of a galaxy.	Abstract	Imagination		ret
+a super math wizard cat, richly textured oil painting	Arts	Imagination		ret
+A group of farm animals (cows, sheep, and pigs) made out of cheese and ham, on a wooden board. There is a dog in the background eyeing the board hungrily.	Food & Beverage	Imagination		gen
+A giant cobra snake made from corn	Animals	Imagination		gen
+A giant cobra snake made from sushi	Animals	Imagination		gen
+A giant cobra snake made from pancakes	Animals	Imagination		same
+A giant cobra snake made from salad	Animals	Imagination		same
+A photo of an astronaut riding a horse in the forest. There is a river in front of them with water lilies.	People	Imagination		same
+A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac	Animals	Imagination		gen
+a massive robot with a coffee cup head. it is standing in the street with one foot smashing a car.	Artifacts	Imagination		gen
+A large city fountain that has milk instead of water. Several cats are leaning into the fountain.	Outdoor Scenes	Imagination		gen
+A bowl of soup that looks like a monster knitted out of wool	Food & Beverage	Imagination		same
+A bowl of soup that looks like a monster made out of plasticine	Food & Beverage	Imagination		gen
+A bowl of soup that looks like a monster spray-painted on a wall	Food & Beverage	Imagination		gen
+A bowl of soup that looks like a monster with tofu says deep learning	Food & Beverage	Imagination		gen
+The 1970s logo for a london-area football club called "The Rumbury Wanderers"	World Knowledge	Imagination		gen
+a swordfish and a narwhal fencing in an underwater sandy arena. a crap and a lobster are cheering.	Animals	Imagination		ret
+A castle made of tortilla chips, in a river made of salsa. There are tiny burritos walking around the castle	Food & Beverage	Imagination		same
+A city in 4-dimensional space-time	Abstract	Imagination		same
+A high resolution photo of a rat working out in a gym.	Animals	Imagination		same
+A high resolution photo of a chicken working out in a gym.	Animals	Imagination		same
+a dump truck filled with soccer balls scuba diving in a coral reef.	Vehicles	Imagination		gen
+a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.	Vehicles	Imagination		same
+A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.	Animals	Imagination		gen
+A high resolution photo of a large bowl of ramen. There are several origami boats in the ramen of different colors.	Food & Beverage	Imagination		gen
+an elf drinking orange juice through a straw of a giant orange next to a squirrel and an owl watching from above	Animals	Imagination	Concept from an old children's book	same
+An alien octopus floats through a portal reading a newspaper. DSLR photo.	Animals	Imagination		gen
+A photo of an astronaut riding a horse in the forest.	People	Imagination		gen
+A photograph of a bird made of wheat bread and an egg.	Animals	Imagination		gen
+a horse corral with tigers standing in each stall	Animals	Imagination		gen
+a bike rack with some bike locks attached to it but no bicycles	Vehicles	Imagination		same
+A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.	Animals	Imagination		same
+An oil painting of a two-story house lifting off the ground like a rocket.	Arts	Imagination		same
+a portrait of a postal worker who has forgotten their mailbag	People	Imagination		same
+a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage	People	Imagination		same
+a kangaroo hopping in the air between two identical large statues of warrior rabbits	Animals	Imagination		gen
+a impressionistic painting of a scholarly badger reading the Rosetta Stone	World Knowledge	Imagination		same
+A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground	Animals	Imagination		same
+a photograph of a knight in shining armor holding a basketball	People	Imagination		ret
+Dogs playing poker	Animals	Imagination	Description of "Dogs Playing Poker"	ret
+Dogs sitting around a poker table	Animals	Imagination	Description of "Dogs Playing Poker"	gen
+Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.	Animals	Imagination	Description of "Dogs Playing Poker"	same
+Salvador Dalí with a robotic half face	People	Imagination	DALL-E 2	same
+an espresso machine that makes coffee from human souls	Artifacts	Imagination	DALL-E 2	gen
+panda mad scientist	Animals	Imagination	DALL-E 2	same
+a snail made of harp	Animals	Imagination	DALL-E	gen
+a giraffe made of turtle	Animals	Imagination	DALL-E	ret
+a giraffe imitating a turtle	Animals	Imagination	DALL-E	same
+a cube made of porcupine	Illustrations	Imagination	DALL-E	same
+a watermelon chair	Artifacts	Imagination		gen
+a giant gorilla at the top of the Empire State Building	World Knowledge	Imagination		gen
+a spaceship that looks like the Sydney Opera House	Vehicles	Imagination		ret
+a hedgehog using a calculator	Animals	Imagination	GLIDE	gen
+a cat playing checkers	Animals	Imagination		ret
+a hamster dragon	Animals	Imagination		same
+a futuristic city	Outdoor Scenes	Imagination	GLIDE	gen
+corgi pizza	Animals	Imagination		gen
+a clock with no hands	Artifacts	Imagination		gen
+a baby daikon radish in a tutu	Produce & Plants	Imagination	DALL-E	gen
+a chimpanzee sitting on a wooden bench	Animals	Imagination		same
+a smiling banana wearing a bandana	Produce & Plants	Imagination		same
+an orange wearing a cowboy hat	Produce & Plants	Imagination		gen
+a cat drinking a pint of beer	Animals	Imagination		gen
+a train going to the moon	Vehicles	Imagination		ret
+a subway train in an empty station	Vehicles	Imagination		gen
+a cow jumping over the moon	Animals	Imagination		ret
+a cat sitting in a car seat	Animals	Imagination		same
+a friendly car	Vehicles	Imagination		ret
+two cats doing research	Animals	Imagination		ret
+a red train is coming down the beach	Vehicles	Imagination		same
+a small kitchen with a white goat in it	Indoor Scenes	Imagination		same
+a giraffe with a funny face	Animals	Imagination		same
+a peaceful lakeside landscape with migrating herd of sauropods	Outdoor Scenes	Imagination		ret
+a cat standing on a horse	Animals	Imagination		same
+a horse standing on an elephant	Animals	Imagination		same
+a cat chasing a horse	Animals	Imagination		gen
+a horse chasing a cat	Animals	Imagination		ret
+a cat with four eyes	Animals	Imagination		ret
+a sword slicing through a loaf of bread	Artifacts	Imagination		gen
+a sword slicing through pouring milk	Artifacts	Imagination		gen
+a coffee mug floating in the sky	Artifacts	Imagination		same
+a pig face with an eye patch	Animals	Imagination		gen
+a stork playing a violin	Animals	Imagination		gen
+a TV on a horse	Artifacts	Imagination		same
+a Christmas tree on a toy train	Artifacts	Imagination		same
+The Statue of Liberty with the face of an owl	World Knowledge	Imagination		gen
+a zebra with blue stripes	Animals	Imagination		ret
+a zebra with alternating blue and red stripes	Animals	Imagination		same
+a yellow tiger with blue stripes	Animals	Imagination		gen
+a tiger wearing a tuxedo	Animals	Imagination		gen
+the statue of Liberty next to the Washington Monument	World Knowledge	Imagination		same
+a koi fish flying in the sky	Animals	Imagination		gen
+a pineapple surfing on a wave	Produce & Plants	Imagination		same
+a toaster shaking hands with a microwave	Artifacts	Imagination		same
+blue apples on a tree with yellow leaves	Produce & Plants	Imagination		gen
+square blue apples on a tree with circular yellow leaves	Produce & Plants	Imagination		gen
+square red apples on a tree with circular green leaves	Produce & Plants	Imagination		same
+a pirate ship landing on the moon	Vehicles	Imagination		gen
+a turkey walking in the kitchen	Animals	Imagination		gen
+a horned owl with a graduation cap and diploma	Animals	Imagination		gen
+a panda bear with aviator glasses on its head	Animals	Imagination		same
+a nerdy bear wearing glasses and a bowtie	Animals	Imagination		gen
+a volcano spewing fish into the sky	Outdoor Scenes	Imagination		same
+a tree with leaves that look like purple balloons	Produce & Plants	Imagination		gen
+a pony with a shooting star on its flank	Animals	Imagination		same
+a half moon in the day sky	Outdoor Scenes	Imagination		ret
+the moon with a smiling face	Outdoor Scenes	Imagination		same
+a tornado with a house carried along at its top	Outdoor Scenes	Imagination		ret
+a penguin that is a car	Animals	Imagination		gen
+a bicycle wheel that is made of red yarn	Vehicles	Imagination		same
+a rabbit sitting on a turtle's back	Animals	Imagination		gen
+a rabbit wearing a black tophat and monocle	Animals	Imagination		gen
+a full pitcher of beer with an elephant's trunk in it	Food & Beverage	Imagination		gen
+an elephant walking on the Great Wall	World Knowledge	Imagination		gen
+a spaceship landing on the Great Wall	World Knowledge	Imagination		gen
+an ocean at the base of the Great Wall	World Knowledge	Imagination		same
+a herd of buffalo stampeding at the Kremlin	World Knowledge	Imagination		gen
+a pickup truck missing its wheels	Vehicles	Imagination		ret
+a flower with a cat's face in the middle	Produce & Plants	Imagination		gen
+a flower with large red petals growing on the moon's surface	Produce & Plants	Imagination		ret
+a grand piano next to the net of a tennis court	Outdoor Scenes	Imagination		ret
+a piano tumbling down a hill	Artifacts	Imagination		gen
+a drawing of a series of musical notes wrapped around the Earth	Illustrations	Imagination		ret
+a tuba made of flower petals	Artifacts	Imagination		same
+a spaceship hovering over The Alamo	World Knowledge	Imagination		same
+a motorcycle hanging on a garage wall	Vehicles	Imagination		gen
+a dragon perched on top of the Great Pyramid	World Knowledge	Imagination		gen
+a flying boat gliding past the Parthenon	Vehicles	Imagination		gen
+the Parthenon in front of the Great Pyramid	World Knowledge	Imagination		ret
+a diplodocus standing in front of the Millennium Wheel	World Knowledge	Imagination		ret
+a child and a penguin sitting on the moon	People	Imagination		gen
+Superman shaking hands with Spiderman	People	Imagination		same
+a man with puppet that looks like a king	People	Imagination		ret
+a person with arms like a tree branch	People	Imagination		same
+a man riding a cat	People	Imagination		gen
+a triangle with a smiling face	Illustrations	Imagination		ret
+a square with an angry face	Illustrations	Imagination		ret
+a concert without any fans	People	Linguistic Structures	Negation	same
+a summer tree without any leaves	Produce & Plants	Linguistic Structures	Negation	ret
+a classroom without any students	People	Linguistic Structures	Negation	same
+a bookshelf without any books on it	Artifacts	Linguistic Structures	Negation	same
+a shoe rack without any pairs of shoes on it	Artifacts	Linguistic Structures	Negation	same
+a closet without clothes	Artifacts	Linguistic Structures	Negation	ret
+a plate that has no bananas on it. there is a glass without orange juice next to it.	Food & Beverage	Linguistic Structures	Negation	ret
+A bird gives an apple to a squirrel	Animals	Linguistic Structures	Ditransitive verbs	ret
+A squirrel gives an apple to a bird	Animals	Linguistic Structures	Ditransitive verbs	same
+A dog gives an apple to a squirrel	Animals	Linguistic Structures	Ditransitive verbs	same
+The sculpture rolled off the shelf because it wasn't level	Artifacts	Linguistic Structures	Winograd Schema Challenge	same
+The sculpture rolled off the shelf because it wasn't anchored	Artifacts	Linguistic Structures	Winograd Schema Challenge	gen
+The large ball crashed right through the table because it was made of styrofoam	Artifacts	Linguistic Structures	Winograd Schema Challenge	gen
+The large ball crashed right through the table because it was made of steel	Artifacts	Linguistic Structures	Winograd Schema Challenge	gen
+The trophy doesn't fit into the brown suitcase because it's too small	Artifacts	Linguistic Structures	Winograd Schema Challenge	gen
+The trophy doesn't fit into the brown suitcase because it's too large	Artifacts	Linguistic Structures	Winograd Schema Challenge	gen
+The coach smiled at the player tossed the frisbee	People	Linguistic Structures	https://en.wikipedia.org/wiki/List_of_linguistic_example_sentences	same
+The rat the cat the dog bit chased escaped.	Animals	Linguistic Structures	https://en.wikipedia.org/wiki/List_of_linguistic_example_sentences	ret
+To a squirrel, a dog gives an apple.	Animals	Linguistic Structures	Ditransitive verbs	same
+A man gives a woman a laptop and a boy a book.	People	Linguistic Structures	Ditransitive verbs	same
+A robot gives a wombat an orange and a lemur a banana.	Animals	Linguistic Structures	Ditransitive verbs	gen
+A man sips a latte and a woman a beer.	Food & Beverage	Linguistic Structures		same
+A rabbit checks its watch, and so does a gecko.	Animals	Linguistic Structures		ret
+A boy holds and a girl paints a piece of wood.	People	Linguistic Structures		gen
+A cat that has black fur bats a red Christmas ornament that has silver sparkles.	Animals	Linguistic Structures		same
+The mouse the cat watches is jumping in the air.	Animals	Linguistic Structures		gen
+Four deer surrounding a moose.	Animals	Linguistic Structures		same
+supercalifragilisticexpialidocious	Abstract	Linguistic Structures	Mary Poppins described it as the word to use “when you have nothing to say.”	same
+Incomprehensibilities	Abstract	Linguistic Structures		ret
+Pneumonoultramicroscopicsilicovolcanoconiosis	Abstract	Linguistic Structures	Longest word: "a lung disease caused by inhalation of very fine silicate or quartz dust."	gen
+a large stone pedestal without a statue of a horse on it	Artifacts	Linguistic Structures	Negation	gen
+a brown mouse laughing at a gray cat because a 16 ton weight is about to fall on its head	Animals	Linguistic Structures		same
+a black dog sitting between a bush and a pair of green pants standing up with nobody inside them	Animals	Linguistic Structures		ret
+The horse raced past the barn fell	Animals	Linguistic Structures	Garden-path sentences	gen
+The old man the boat.	People	Linguistic Structures	Garden-path sentences	gen
+We painted the wall with cracks.	People	Linguistic Structures	Garden-path sentences	gen
+The raft floated down the river sank.	Vehicles	Linguistic Structures	Garden-path sentences	gen
+Mary gave the child the dog bit a Band-Aid.	People	Linguistic Structures	Garden-path sentences	same
+The man who whistles tunes pianos.	People	Linguistic Structures	Garden-path sentences	gen
+One morning I chased an elephant in my pajamas	People	Linguistic Structures	Syntactic Ambiguities	ret
+A tourist is looking at a whale using a binocular	People	Linguistic Structures	Syntactic Ambiguities	gen
+The dog chased the cat, which ran up a tree. It waited at the top.	Animals	Linguistic Structures	Winograd Schema Challenge	same
+The dog chased the cat, which ran up a tree. It waited at the bottom.	Animals	Linguistic Structures	Winograd Schema Challenge	ret
+An aerial view of Ha Long Bay without any boats	World Knowledge	Linguistic Structures	Negation	same
+a bench without any cats on it	Artifacts	Linguistic Structures	Negation	same
+a laptop no letters on its keyboard	Artifacts	Linguistic Structures	Negation	gen
+a subway train with no cows in it	Vehicles	Linguistic Structures	Negation	same
+a kitchen without a refrigerator	Indoor Scenes	Linguistic Structures	Negation	ret
+several lily pads without frogs	Produce & Plants	Linguistic Structures	Negation	same
+a street without vehicles	Outdoor Scenes	Linguistic Structures	Negation	ret
+a house with no windows	Outdoor Scenes	Linguistic Structures	Negation	gen
+a car with no windows	Vehicles	Linguistic Structures	Negation	ret
+a fish without eyes	Animals	Linguistic Structures	Negation	ret
+a city intersection without cars	Outdoor Scenes	Linguistic Structures	Negation	same
+a horse without a rider	Animals	Linguistic Structures	Negation	same
+a banana without its peel	Produce & Plants	Linguistic Structures	Negation	same
+a bat landing on a baseball bat	Animals	Linguistic Structures		gen
+a bird landing on a bat	Animals	Linguistic Structures		same
+a rowboat without paddles	Vehicles	Linguistic Structures	Negation	same
+a harp without any strings	Artifacts	Linguistic Structures	Negation	same
+a marina without any boats in it	Outdoor Scenes	Linguistic Structures	Negation	ret
+Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers	Animals	Perspective		same
+Three-quarters front view of a blue 1977 Corvette coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		same
+Three-quarters front view of a blue 1977 Ford F-150 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		gen
+Three-quarters front view of a blue 1977 Porsche 911 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		gen
+Three-quarters front view of a red 1997 Corvette coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		same
+Three-quarters front view of a red 1997 Ford F-150 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		same
+Three-quarters front view of a red 1997 Porsche 911 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		ret
+Three-quarters front view of a yellow 2017 Corvette coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		gen
+Three-quarters front view of a yellow 2017 Ford F-150 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		gen
+Three-quarters front view of a yellow 2017 Porsche 911 coming around a curve in a mountain road and looking over a green valley on a cloudy day.	Vehicles	Perspective		gen
+A photo of a frog reading the newspaper named "Toaday" written on it. There is a frog printed on the newspaper too.	Animals	Perspective		same
+The frog found itself in the newspaper	Animals	Perspective		gen
+A cat dreaming about becoming a tiger	Animals	Perspective		same
+A close-up of two chameleons wearing karate uniforms and fighting, jumping over a waterfall.	Animals	Perspective		gen
+A close-up of two mantis wearing karate uniforms and fighting, jumping over a waterfall.	Animals	Perspective		gen
+A close-up of two beetles wearing karate uniforms and fighting, jumping over a waterfall.	Animals	Perspective		gen
+A robot with a black visor and the number 42 on its chest. It stands proudly in front of an F1 race car. The sun is setting on a cityscape in the background. wide-angle view. comic book illustration.	Illustrations	Perspective		gen
+A smiling sloth is wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book. The sloth is standing on grass a few feet in front of a shiny VW van with flowers painted on it. wide-angle lens from below.	World Knowledge	Perspective		ret
+A smiling sloth wearing a leather jacket, bowtie, kilt and cowboy hat. The sloth is holding a quarterstaff and a big book. The sloth is standing on grass a few feet in front of a rusty old VW van with flowers painted on it. wide-angle lens from below.	World Knowledge	Perspective		same
+view of a giraffe and a zebra in the middle of a field	Animals	Perspective		gen
+Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.	World Knowledge	Perspective		same
+Ground view of the Great Pyramids and Sphinx on the moon's surface. The back of an astronaut is in the foreground. The planet Earth looms in the sky.	World Knowledge	Perspective		ret
+Saturn rises on the horizon.	Outdoor Scenes	Perspective		ret
+Mars rises on the horizon.	Outdoor Scenes	Perspective		same
+Jupiter rises on the horizon.	Outdoor Scenes	Perspective		gen
+a close-up of a blue dragonfly on a daffodil	Animals	Perspective		same
+long shards of a broken mirror reflecting the eyes of a great horned owl	Artifacts	Perspective		gen
+side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.	Animals	Perspective		same
+three quarters view of a rusty old red pickup truck with white doors and a smashed windshield	Vehicles	Perspective		same
+view from below of a tall white ladder with just one rung leaning up against a yellow brick wall	Artifacts	Perspective		same
+a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.	Vehicles	Perspective		same
+a close up of a handpalm with leaves growing from it	People	Perspective	DALL-E 2	same
+a corgi’s head	Animals	Perspective		same
+An aerial view of Ha Long Bay	World Knowledge	Perspective		ret
+a macro photograph of brain coral	Animals	Perspective	DALL-E	same
+a cross-section view of a walnut	Produce & Plants	Perspective	DALL-E	ret
+an extreme close-up view of a capybara sitting in a field	Animals	Perspective	DALL-E	gen
+an overhead view of the Empire State Building	World Knowledge	Perspective		same
+a pig face	Animals	Perspective		same
+a close-up of a bloody mary cocktail	Food & Beverage	Perspective		ret
+a close-up of an old-fashioned cocktail	Food & Beverage	Perspective		gen
+a close-up of a long-island ice tea cocktail	Food & Beverage	Perspective		gen
+a close-up of a margarita	Food & Beverage	Perspective		same
+the back of a violin	Artifacts	Perspective		same
+view of a clock tower from above	Artifacts	Perspective		same
+view of a clock tower from below	Artifacts	Perspective		gen
+an aerial photo of a carnival at night	Outdoor Scenes	Perspective		gen
+an aerial photo of a baseball stadium	Outdoor Scenes	Perspective		same
+an aerial photo of a sandy island in the ocean	Outdoor Scenes	Perspective		same
+an ostrich's face	Animals	Perspective		gen
+a close-up of an ostrich's face	Animals	Perspective		same
+the eyes of an owl	Animals	Perspective		same
+a close-up of the eyes of an owl	Animals	Perspective		gen
+a top down view of a horse running in a field	Animals	Perspective		gen
+tall buildings seen through a window with rain on it	Outdoor Scenes	Perspective		same
+trees seen through a car window on a rainy day	Outdoor Scenes	Perspective		same
+a view of the Earth from the moon	Outdoor Scenes	Perspective		gen
+an image of the moons of the planet Jupiter	Outdoor Scenes	Perspective		ret
+the eye of the planet Jupiter	Outdoor Scenes	Perspective		gen
+a close-up of the eye of the planet Jupiter	Outdoor Scenes	Perspective		same
+an aerial view of the Great Wall	World Knowledge	Perspective		gen
+view of the Great Wall from its base	World Knowledge	Perspective		same
+an overhead view of a pickup truck with boxes in its flatbed	Vehicles	Perspective		gen
+a close-up of the keys of a piano	Artifacts	Perspective		ret
+an aerial view of the Great Pyramid	World Knowledge	Perspective		same
+a view of the Milllenium Wheel from the Thames	World Knowledge	Perspective		same
+overhead view of three people looking down at the street from the top of a tall building	People	Perspective		ret
+two people facing each other	People	Perspective		ret
+two people facing the viewer	People	Perspective		same
+a three quarters view of a man getting into a car	People	Perspective		same
+a stack of three red cubes with a blue sphere on the right and two green cones on the left	Illustrations	Properties & Positioning		gen
+A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.	World Knowledge	Properties & Positioning		ret
+A photo of a Japanese Porcelain Imari vase on the ground below a wooden chair.	World Knowledge	Properties & Positioning		same
+a pen-and-ink crosshatched drawing of a sphere with dark square on it	Illustrations	Properties & Positioning		ret
+a metallic blue sphere to the left of a yellow box made of felt	Illustrations	Properties & Positioning		same
+a blue wooden pyramid on top of a red plastic box	Illustrations	Properties & Positioning		gen
+concentric squares fading from yellow on the outside to deep orange on the inside	Illustrations	Properties & Positioning		ret
+A green heart with shadow	Illustrations	Properties & Positioning	VQ-Diffusion	ret
+a red cube on top of a blue cube	Illustrations	Properties & Positioning	GLIDE	gen
+a white flag with a red circle next to a solid blue flag	Artifacts	Properties & Positioning		ret
+a red circle on top of a blue square	Illustrations	Properties & Positioning		same
+a yellow box to the right of a blue sphere	Illustrations	Properties & Positioning		same
+a red box to the right of a green sphere	Illustrations	Properties & Positioning		gen
+a red box next to a blue box	Illustrations	Properties & Positioning		same
+a red sphere on top of a yellow box	Illustrations	Properties & Positioning		ret
+a large blue box with three small yellow boxes on it	Illustrations	Properties & Positioning		gen
+several red lego blocks and one blue one	Artifacts	Properties & Positioning		same
+a red block to the left of a blue pyramid	Illustrations	Properties & Positioning		same
+three small yellow boxes on a large blue box	Illustrations	Properties & Positioning		gen
+a black background with a large yellow circle	Illustrations	Properties & Positioning		same
+a white background with a large blue circle	Illustrations	Properties & Positioning		same
+a black background with a large yellow square	Illustrations	Properties & Positioning		same
+a white background with a large blue square	Illustrations	Properties & Positioning		ret
+a black background with a large yellow circle and a small red square	Illustrations	Properties & Positioning		ret
+a white background with a large blue circle and a small green square	Illustrations	Properties & Positioning		same
+a large yellow triangle above a green square and red rectangle	Illustrations	Properties & Positioning		same
+two small circles to the left of a red triangle that is on a green rectangle	Illustrations	Properties & Positioning		same
+a green pyramid in front of a blue box	Illustrations	Properties & Positioning		gen
+a large yellow sphere behind a small purple pyramid	Illustrations	Properties & Positioning		gen
+a metallic blue sphere to the left of a brown cardboard box	Illustrations	Properties & Positioning		gen
+a yellow swirl next to a blue dashed line.	Illustrations	Properties & Positioning		same
+a red swirl above a black dashed line.	Illustrations	Properties & Positioning		same
+a green pepper to the left of a red pepper	Food & Beverage	Properties & Positioning		same
+a brown trash bin to the left of a blue recycling bin	Artifacts	Properties & Positioning		same
+a circular brown trash bin in front of a brick wall	Artifacts	Properties & Positioning		same
+ten red apples	Produce & Plants	Quantity		gen
+Four dragons surrounding a dinosaur	Animals	Quantity		same
+Four cats surrounding a dog	Animals	Quantity		ret
+two baseballs to the left of three tennis balls	Artifacts	Quantity		gen
+a group of not more than five meerkats standing with the sun setting behind them	Animals	Quantity		gen
+a basketball game between a team of four cats and a team of three dogs	Animals	Quantity		gen
+the hands of a single person holding a basketball	People	Quantity		same
+several people putting their hands on a basketball	People	Quantity		same
+a tiny football in front of three yellow tennis balls	Artifacts	Quantity		ret
+two beat-up baseballs on either side of a yellow basketball	Artifacts	Quantity		gen
+two baseballs next to three tennis balls	Artifacts	Quantity		same
+7 dogs sitting around a poker table	Animals	Quantity	Description of "Dogs Playing Poker"	ret
+7 dogs sitting around a poker table, two of which are turning away.	Animals	Quantity	Description of "Dogs Playing Poker"	same
+300 movie titles	Artifacts	Quantity	Simple numbers but challenging	ret
+a collection of glasses	Artifacts	Quantity		gen
+two chairs	Artifacts	Quantity		gen
+three chairs	Artifacts	Quantity		gen
+five chairs	Artifacts	Quantity		gen
+two wooden chairs and three metal chairs	Artifacts	Quantity		gen
+three black cats standing next to two orange cats	Animals	Quantity		same
+a bunch of laptops piled on a sofa	Indoor Scenes	Quantity		same
+four owls standing on a telephone wire	Animals	Quantity		same
+an owl family	Animals	Quantity		same
+a comic about an owl family in the forest	Artifacts	Quantity		gen
+two cats	Animals	Quantity		gen
+a comic about two cats doing research	Artifacts	Quantity		gen
+three elephants standing on top of each other	Animals	Quantity		gen
+two red boxes	Illustrations	Quantity		gen
+two violins standing up	Artifacts	Quantity		gen
+two violins standing up with their bows on the ground in front of them	Artifacts	Quantity		gen
+three violins lying on the floor	Indoor Scenes	Quantity		gen
+three red lego blocks	Artifacts	Quantity		gen
+four teacups surounding a kettle	Artifacts	Quantity		gen
+three small yellow boxes	Illustrations	Quantity		same
+bottles	Artifacts	Quantity		same
+two frosted glass bottles	Artifacts	Quantity		gen
+five frosted glass bottles	Artifacts	Quantity		same
+three green glass bottles	Artifacts	Quantity		same
+four green glass bottles	Artifacts	Quantity		ret
+two wine bottles	Artifacts	Quantity		gen
+three wine bottles	Artifacts	Quantity		same
+four wine bottles	Artifacts	Quantity		ret
+ten wine bottles	Artifacts	Quantity		gen
+two wine bottles and three beer cans	Artifacts	Quantity		gen
+a pair of matching socks with cute cats on them	Artifacts	Quantity		same
+a pile of cash on a wooden table	Artifacts	Quantity		gen
+a pile of cash on a stone floor	Artifacts	Quantity		ret
+two red balls	Artifacts	Quantity		ret
+two red balls on a table	Artifacts	Quantity		same
+five red balls	Artifacts	Quantity		gen
+five red balls on a table	Artifacts	Quantity		gen
+three yellow balls and two red boxes on a table	Artifacts	Quantity		gen
+an antique chest with three drawers	Artifacts	Quantity		same
+ten triangles and five squares on a black background	Illustrations	Quantity		same
+a pile of toy cars	Artifacts	Quantity		ret
+a full bookshelf with three shelves	Artifacts	Quantity		gen
+a bookshelf with ten books stacked vertically	Artifacts	Quantity		ret
+three airplanes parked in a row at a terminal	Vehicles	Quantity		same
+three green peppers	Food & Beverage	Quantity		ret
+five green peppers to the right of two red onions	Food & Beverage	Quantity		same
+Times Square with thousands of dogs running around	World Knowledge	Quantity		same
+three pickup trucks piled on top of each other	Vehicles	Quantity		ret
+a pair of brown suede shoes	Artifacts	Quantity		gen
+two red flowers and three white flowers	Produce & Plants	Quantity		ret
+two parallel chemtrails in blue sky	Outdoor Scenes	Quantity		same
+two chemtrails forming an X in blue sky	Outdoor Scenes	Quantity		ret
+a tennis court with three yellow cones on it	Outdoor Scenes	Quantity		gen
+a tennis court with tennis balls scattered all over it	Outdoor Scenes	Quantity		same
+a ceiling fan with four white blades	Indoor Scenes	Quantity		same
+a ceiling fan with five brown blades	Indoor Scenes	Quantity		same
+two pianos next to each other	Indoor Scenes	Quantity		same
+a series of musical notes	Illustrations	Quantity		ret
+a field with ten massive modern windmills	Outdoor Scenes	Quantity		same
+two motorcycles facing each other	Vehicles	Quantity		ret
+children	People	Quantity		same
+one child on a couch	People	Quantity		same
+three children on a couch	People	Quantity		same
+ten children on a couch	People	Quantity		gen
+a crowd of people watching fireworks	People	Quantity		gen
+a parade with cars and people waving	People	Quantity		gen
+a family of four posing in front of a house	People	Quantity		same
+a family of four posing at the Grand Canyon	People	Quantity		same
+a family of four posing at Mount Rushmore	People	Quantity		same
+a family of four posing on the moon	People	Quantity		same
+a family of four walking at the beach with waves covering their feet	People	Quantity		ret
+a jungle gym with three kids on it	People	Quantity		same
+four people riding in a convertible car	People	Quantity		ret
+two runners crossing the finish line together	People	Quantity		gen
+a four-piece band on a stage in front of a small crowd	People	Quantity		same
+two sets of identical twins	People	Quantity		ret
+Siberian husky playing the piano.	Animals	Simple Detail		same
+A van parked on grass	Vehicles	Simple Detail		same
+a smiling sloth	Animals	Simple Detail		ret
+A shiny VW van parked on grass.	World Knowledge	Simple Detail		same
+a farm scene with cows, ducks and a tractor.	Outdoor Scenes	Simple Detail		gen
+a lavender backpack with a triceratops stuffed animal head on top	Artifacts	Simple Detail		gen
+a dolphin in an astronaut suit	Animals	Simple Detail	DALL-E 2	ret
+a teddy bear on a skateboard	Artifacts	Simple Detail	DALL-E 2	gen
+A tiger is playing football	Animals	Simple Detail	CogView	gen
+A Google map highlighting Vietnam	World Knowledge	Simple Detail		ret
+A bowl of Chicken Pho	Food & Beverage	Simple Detail		same
+A bowl of Beef Pho	Food & Beverage	Simple Detail		same
+a lovestruck cup of boba	Food & Beverage	Simple Detail	DALL-E	gen
+a horse in a field of flowers	Outdoor Scenes	Simple Detail		same
+A green heart	Illustrations	Simple Detail		ret
+The sunset on the beach is wonderful	Outdoor Scenes	Simple Detail	VQ-Diffusion	ret
+A red bus is driving on the road	Vehicles	Simple Detail	VQ-Diffusion	same
+A picture of a very tall stop sign	Outdoor Scenes	Simple Detail	VQ-Diffusion	gen
+A movie poster of mountain and sea	Artifacts	Simple Detail	VQ-Diffusion	gen
+A giraffe walking through a green grass covered field	Animals	Simple Detail	VQ-Diffusion	gen
+A green train is coming down the tracks	Vehicles	Simple Detail	VQ-Diffusion	gen
+A living area with a television and a table	Indoor Scenes	Simple Detail	VQ-Diffusion	same
+A red hydrant on the grass	Outdoor Scenes	Simple Detail	VQ-Diffusion	same
+Sunset over the sea	Outdoor Scenes	Simple Detail	VQ-Diffusion	gen
+A small house in the wilderness	Outdoor Scenes	Simple Detail	VQ-Diffusion	same
+Sunset over the skyline of a city	Outdoor Scenes	Simple Detail	VQ-Diffusion	same
+A heart made of chocolate	Illustrations	Simple Detail	VQ-Diffusion	same
+A heart made of water	Illustrations	Simple Detail	VQ-Diffusion	same
+A heart made of wood	Illustrations	Simple Detail	VQ-Diffusion	gen
+A heart made of cookie	Illustrations	Simple Detail	VQ-Diffusion	same
+a white country home	Outdoor Scenes	Simple Detail		same
+robots meditating	Artifacts	Simple Detail		same
+a robot kicking a soccer ball	Artifacts	Simple Detail		same
+a cat looking out of a window	Animals	Simple Detail		ret
+a cat coming through a cat door	Animals	Simple Detail		gen
+a cat jumping in the air	Animals	Simple Detail		gen
+a cat jumping in the air to catch a bird	Animals	Simple Detail		same
+a cat jumping in the air to get onto a table	Animals	Simple Detail		same
+a sunset behind the grand canyon	World Knowledge	Simple Detail	GLIDE	gen
+a boat in the canals of venice	World Knowledge	Simple Detail	GLIDE	same
+a large white yacht	Vehicles	Simple Detail		ret
+a panda eating bamboo	Animals	Simple Detail	GLIDE	same
+a fog rolling into new york	World Knowledge	Simple Detail	GLIDE	same
+a green clock	Artifacts	Simple Detail		gen
+a photo of a phone from the 20s	Artifacts	Simple Detail	DALL-E	same
+a photo of the food of china	Food & Beverage	Simple Detail	DALL-E	same
+a baby daikon radish	Produce & Plants	Simple Detail	DALL-E	gen
+a very fancy French restaurant	Indoor Scenes	Simple Detail		same
+a tiger standing by some flowers	Animals	Simple Detail		gen
+a bench next to a flower pot	Artifacts	Simple Detail		gen
+a bird standing on a stick	Animals	Simple Detail		gen
+a blue sports car on the road	Vehicles	Simple Detail		same
+a red sports car on the road	Vehicles	Simple Detail		same
+a soccer ball flying over a car	Outdoor Scenes	Simple Detail		same
+the finale of a fireworks display	Outdoor Scenes	Simple Detail		gen
+beautiful fireworks in the sky	Outdoor Scenes	Simple Detail		gen
+a subway train	Vehicles	Simple Detail		ret
+a subway train coming out of a tunnel	Vehicles	Simple Detail		same
+orange jello	Food & Beverage	Simple Detail		same
+a yellow t-shirt	Artifacts	Simple Detail		gen
+a blue t-shirt	Artifacts	Simple Detail		same
+a flag furling in the wind	Artifacts	Simple Detail		same
+a white towel	Artifacts	Simple Detail		ret
+a white towel with a cat on it	Artifacts	Simple Detail		gen
+a black towel	Artifacts	Simple Detail		gen
+a black towel with a dog on it	Artifacts	Simple Detail		same
+a yellow wall	Artifacts	Simple Detail		ret
+a friendly car in the city	Vehicles	Simple Detail		same
+an owl family in the forest	Animals	Simple Detail		same
+a kangaroo jumping through the park	Animals	Simple Detail		gen
+a street in Paris	World Knowledge	Simple Detail		same
+a canal in Venice	World Knowledge	Simple Detail		same
+a small house	Outdoor Scenes	Simple Detail		ret
+a small house on a mountain top	Outdoor Scenes	Simple Detail		same
+the grand canyon on a cloudy day	World Knowledge	Simple Detail		same
+a house on a mountain	Outdoor Scenes	Simple Detail		gen
+a photograph of a house on a mountain	Outdoor Scenes	Simple Detail		same
+a peaceful lakeside landscape	Outdoor Scenes	Simple Detail		same
+a cat reading a book	Animals	Simple Detail		gen
+a cat reading a newspaper	Animals	Simple Detail		ret
+a cat reading a comic book	Animals	Simple Detail		gen
+a horse reading a book	Animals	Simple Detail		same
+a horse reading a newspaper	Animals	Simple Detail		same
+a horse reading a comic book	Animals	Simple Detail		ret
+a cat jumping down from a wall	Animals	Simple Detail		ret
+a pumpkin with a candle in it	Produce & Plants	Simple Detail		gen
+a sword in a stone	Artifacts	Simple Detail		ret
+an Egyptian statue	World Knowledge	Simple Detail		gen
+an Egyptian statue in the desert	World Knowledge	Simple Detail		gen
+a massive statue in a temple	Artifacts	Simple Detail		same
+a circular logo on a coffee mug	Illustrations	Simple Detail		same
+a pig in a field	Animals	Simple Detail		gen
+a horse in a field	Animals	Simple Detail		same
+a squirrel in a field	Animals	Simple Detail		gen
+a tiger in a field	Animals	Simple Detail		gen
+a pig in a forest	Animals	Simple Detail		same
+a horse in a forest	Animals	Simple Detail		same
+a squirrel in a forest	Animals	Simple Detail		ret
+a tiger in a forest	Animals	Simple Detail		gen
+a hammer on a table	Artifacts	Simple Detail		same
+a screwdriver on a table	Artifacts	Simple Detail		same
+a handsaw on a table	Artifacts	Simple Detail		gen
+a power drill on a table	Artifacts	Simple Detail		same
+a bloody mary cocktail	Food & Beverage	Simple Detail		same
+an old-fashioned cocktail	Food & Beverage	Simple Detail		gen
+a long-island ice tea cocktail	Food & Beverage	Simple Detail		ret
+a tree surrounded by flowers	Produce & Plants	Simple Detail		same
+a street with several cars on it	Outdoor Scenes	Simple Detail		gen
+an avocado on a table	Produce & Plants	Simple Detail		same
+a kitchen with a large refrigerator	Indoor Scenes	Simple Detail		gen
+weeds in the cracks of a sidewalk	Artifacts	Simple Detail		ret
+a wood treehouse in an oak tree	Artifacts	Simple Detail		gen
+a metal treehouse in an oak tree	Artifacts	Simple Detail		gen
+a violin next to an apple	Artifacts	Simple Detail		ret
+a room with two chairs and a painting	Indoor Scenes	Simple Detail		gen
+a canal in Amsterdam	World Knowledge	Simple Detail		same
+red apples on a tree with green leaves	Produce & Plants	Simple Detail		gen
+a stop sign	Artifacts	Simple Detail		ret
+a yield sign	Artifacts	Simple Detail		gen
+a mountain with a cloud hanging over it	Outdoor Scenes	Simple Detail		same
+a bottle of red wine	Food & Beverage	Simple Detail		same
+wine bottles	Food & Beverage	Simple Detail		same
+the cover of a book about gardening	Illustrations	Simple Detail		gen
+a milk container on a table	Artifacts	Simple Detail		gen
+a milk container in a refrigerator	Artifacts	Simple Detail		same
+a marine iguana crossing the street	Animals	Simple Detail		ret
+cash on a stone floor	Artifacts	Simple Detail		same
+a half-peeled banana	Produce & Plants	Simple Detail		gen
+a black baseball hat	Artifacts	Simple Detail		gen
+black hi-top sneakers	Artifacts	Simple Detail		same
+a roast turkey on the table	Food & Beverage	Simple Detail		gen
+a plate with white rice topped by cooked vegetables	Food & Beverage	Simple Detail		gen
+slices of avocado on a piece of toast	Food & Beverage	Simple Detail		same
+slices of mango on a piece of toast	Food & Beverage	Simple Detail		same
+a bamboo ladder	Artifacts	Simple Detail		ret
+a cat jumps over a baby gate	Animals	Simple Detail		gen
+an ostrich standing on a couch	Animals	Simple Detail		same
+a taxi driving in the countryside	Vehicles	Simple Detail		gen
+a two lane road with a bright yellow line 	Outdoor Scenes	Simple Detail		gen
+a road ruined by an earthquake	Outdoor Scenes	Simple Detail		gen
+a volcano erupting near a small town	Outdoor Scenes	Simple Detail		same
+a volcano with lava pouring down its slopes	Outdoor Scenes	Simple Detail		same
+a horse running in a field	Animals	Simple Detail		same
+a robot cooking	Artifacts	Simple Detail		ret
+a robot cooking in the kitchen	Indoor Scenes	Simple Detail		gen
+a compass next to a piece of fruit	Artifacts	Simple Detail		gen
+the silhouette of an elephant	Animals	Simple Detail		ret
+a tree growing through a fence	Produce & Plants	Simple Detail		ret
+a butterfly kite stuck high in a tree	Produce & Plants	Simple Detail		same
+a unicorn with a multicolored mane	Animals	Simple Detail		same
+a crown with a ruby in its center	Artifacts	Simple Detail		same
+an ornate jewel-encrusted key	Artifacts	Simple Detail		same
+a goat wearing headphones	Animals	Simple Detail		same
+a small tree covered in white blossoms	Produce & Plants	Simple Detail		gen
+an antique chest	Artifacts	Simple Detail		gen
+a coffee table with a magazine on it	Indoor Scenes	Simple Detail		same
+a yellow wall with two framed sketches	Indoor Scenes	Simple Detail		ret
+a squirrell driving a toy car	Animals	Simple Detail		same
+a penguin standing on a sidewalk	Animals	Simple Detail		gen
+a basketball hoop with a large blue ball stuck in it	Outdoor Scenes	Simple Detail		gen
+a racoon holding a shiny red apple over its head	Animals	Simple Detail		gen
+a pair of glasses under a computer monitor	Artifacts	Simple Detail		gen
+a throw rug on a stone floor	Artifacts	Simple Detail		ret
+a beach with apartment buildings next to it	Outdoor Scenes	Simple Detail		same
+a moose standing over a fox	Animals	Simple Detail		gen
+a massive statue of Hanuman	World Knowledge	Simple Detail		ret
+a black t-shirt	Artifacts	Simple Detail		gen
+a small airplane	Vehicles	Simple Detail		ret
+an airplane taking off of a runway	Vehicles	Simple Detail		gen
+a monarch butterfly	Animals	Simple Detail		same
+a lizard that just lost its tail	Animals	Simple Detail		gen
+a golden doorknocker on a red door	Artifacts	Simple Detail		ret
+a pitcher of orange juice	Food & Beverage	Simple Detail		same
+a glass of orange juice	Food & Beverage	Simple Detail		ret
+a green pepper cut in half on a plate	Food & Beverage	Simple Detail		same
+a green pepper sliced into many pieces	Food & Beverage	Simple Detail		ret
+a full pint of IPA	Food & Beverage	Simple Detail		same
+a half-full pitcher of stout	Food & Beverage	Simple Detail		same
+Times Square during the day	World Knowledge	Simple Detail		ret
+Times Square at night	World Knowledge	Simple Detail		gen
+the Kremlin at night	World Knowledge	Simple Detail		ret
+a hot air balloon floating by the Kremlin	World Knowledge	Simple Detail		same
+a black shoe with a lightning bolt on it	Artifacts	Simple Detail		same
+a plant with small flowers with purple petals	Produce & Plants	Simple Detail		same
+a plant with orange flowers shaped like stars	Produce & Plants	Simple Detail		same
+a flower with large yellow petals	Produce & Plants	Simple Detail		gen
+a yellow diamond-shaped sign	Artifacts	Simple Detail		same
+an elephant in a tennis court	Animals	Simple Detail		gen
+a silver fire hydrant next to a sidewalk	Artifacts	Simple Detail		same
+a yellow fire hydrant in grass	Artifacts	Simple Detail		gen
+a red fire hydrant by a brick wall	Artifacts	Simple Detail		gen
+a rusty fire hydrant surrounded by dirt	Artifacts	Simple Detail		same
+a fire hydrant with graffiti on it	Artifacts	Simple Detail		same
+a snake curled around a wooden post	Animals	Simple Detail		gen
+a grand piano with a white bench	Indoor Scenes	Simple Detail		ret
+a piano with Christmas lights all over it	Indoor Scenes	Simple Detail		gen
+a piano with an open song book above the keys 	Indoor Scenes	Simple Detail		same
+an ornate gold harp	Artifacts	Simple Detail		same
+a massive modern windmill	Outdoor Scenes	Simple Detail		gen
+a red sport bike	Vehicles	Simple Detail		same
+a painting of black and white vertical stripes	Illustrations	Simple Detail		gen
+a painting of black and white checkerboard	Illustrations	Simple Detail		same
+a painting of black and white with a red border	Illustrations	Simple Detail		gen
+a team playing baseball	People	Simple Detail		same
+children on a couch	People	Simple Detail		ret
+a woman with long hair	People	Simple Detail		same
+a man standing under a tree	People	Simple Detail		same
+a smiling man	People	Simple Detail		ret
+an elderly woman	People	Simple Detail		gen
+an old man	People	Simple Detail		gen
+a man with puppet	People	Simple Detail		same
+a boy going to school	People	Simple Detail		same
+a girl going to a farm	People	Simple Detail		gen
+a family on a road trip	People	Simple Detail		same
+a father and a son playing tennis	People	Simple Detail		gen
+a man heading a soccer ball	People	Simple Detail		gen
+a sad man with green hair	People	Simple Detail		gen
+a woman with sunglasses and red hair	People	Simple Detail		gen
+a man looking at a distant mountain	People	Simple Detail		gen
+a woman looking at a house	People	Simple Detail		same
+a man riding a horse	People	Simple Detail		same
+a man chasing a cat	People	Simple Detail		ret
+a man chasing a horse	People	Simple Detail		ret
+a pumpkin on a man's head	People	Simple Detail		same
+an angry man	People	Simple Detail		gen
+a frustrated child	People	Simple Detail		ret
+a laughing woman	People	Simple Detail		same
+a woman running on a trail	People	Simple Detail		same
+a boy jumping off a wall	People	Simple Detail		same
+a girl diving into a pool	People	Simple Detail		ret
+a man banging on a door	People	Simple Detail		same
+a comic book supervillian	Artifacts	Simple Detail		same
+Downtown Istanbul at sunrise. detailed ink wash.	World Knowledge	Style & Format		gen
+Downtown Seattle at sunrise. detailed ink wash.	World Knowledge	Style & Format		same
+Downtown Beijing at sunrise. detailed ink wash.	World Knowledge	Style & Format		gen
+Downtown Rio de Janeiro at sunrise. detailed ink wash.	World Knowledge	Style & Format		same
+Downtown LA at sunrise. detailed ink wash.	World Knowledge	Style & Format		ret
+Downtown Sydney at sunrise. detailed ink wash.	World Knowledge	Style & Format		gen
+Downtown Sanfrancisco at sunrise. detailed ink wash.	World Knowledge	Style & Format		same
+Downtown Singapore at sunrise. detailed ink wash.	World Knowledge	Style & Format		same
+Downtown NYC at sunrise. detailed ink wash.	World Knowledge	Style & Format		gen
+Downtown Austin at sunrise. detailed ink wash.	World Knowledge	Style & Format		gen
+Downtown Shanghai at sunrise. detailed ink wash.	World Knowledge	Style & Format		ret
+Downtown Saigon at sunrise. detailed ink wash.	World Knowledge	Style & Format		same
+A section of the Great Wall in the mountains. detailed charcoal sketch.	World Knowledge	Style & Format		gen
+The Great Hypostyle Hall of Karnak. detailed charcoal sketch.	World Knowledge	Style & Format		gen
+A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.	World Knowledge	Style & Format		same
+Taj Mahal with its reflection. detailed charcoal sketch.	World Knowledge	Style & Format		same
+A spaceship made of cardboard.	Artifacts	Style & Format		gen
+A old phonograph made of cardboard.	Artifacts	Style & Format		same
+A castle made of cardboard.	Artifacts	Style & Format		same
+A photo of a dragonfly made of water.	Animals	Style & Format		ret
+A photo of a panda made of water.	Animals	Style & Format		same
+A photo of a teddy bear made of water.	Animals	Style & Format		gen
+A photo of a crocodile made of water.	Animals	Style & Format		ret
+A photo of a lotus flower made of water. 	Produce & Plants	Style & Format		same
+A photo of a maple leaf made of water. 	Produce & Plants	Style & Format		ret
+A photo of a palm tree made of water. 	Produce & Plants	Style & Format		ret
+A photo of a four-leaf clover made of water. 	Produce & Plants	Style & Format		same
+an abstract oil painting in deep red and black with a thick patches of white	Arts	Style & Format		gen
+light and happiness throughout and finding its way to every corner of the world, abstract oil painting	Arts	Style & Format		same
+trying to find my way in a big confusing world, abstract oil painting	Arts	Style & Format		same
+the door of knowing, a portal brightly opening the way through darkness. abstract anime landscape oil painting.	Arts	Style & Format		ret
+A soft beam of light shines down on an armored granite wombat warrior statue holding a broad sword. The statue stands an ornate pedestal in the cella of a temple. wide-angle lens. anime oil painting.	Animals	Style & Format		gen
+Oil painting generated by artificial intelligence	Abstract	Style & Format		same
+A heavy metal tiger standing on a rooftop while singing and jamming on an electric guitar under a spotlight. anime illustration.	Animals	Style & Format		gen
+A funny Rube Goldberg machine made out of metal	World Knowledge	Style & Format		same
+A funny Rube Goldberg machine made out of paper	World Knowledge	Style & Format		same
+A funny Rube Goldberg machine made out of wood	World Knowledge	Style & Format		gen
+Oil painting of a giant robot made of sushi, holding chopsticks.	Artifacts	Style & Format		same
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Charcoal.	Animals	Style & Format		ret
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Child's crayon drawing.	Animals	Style & Format		same
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Chinese ink.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Marble statue.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Oil on canvas.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Photograph.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Watercolor.	Animals	Style & Format		gen
+Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Woodcut.	Animals	Style & Format		gen
+A rusty spaceship blasts off in the foreground. A city with tall skyscrapers is in the distance, with a mountain and ocean in the background. A dark moon is in the sky. realistic high-contrast anime illustration.	Vehicles	Style & Format		same
+A photo of an Athenian vase with a painting of pandas playing basketball in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		same
+A photo of an Athenian vase with a painting of pandas playing soccer in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		gen
+A photo of an Athenian vase with a painting of pandas playing tennis in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		gen
+A photo of an Athenian vase with a painting of pangolins playing basketball in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		gen
+A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		gen
+A photo of an Athenian vase with a painting of pangolins playing tennis in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		same
+A photo of an Athenian vase with a painting of toucans playing basketball in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		same
+A photo of an Athenian vase with a painting of toucans playing soccer in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		ret
+A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics	World Knowledge	Style & Format		gen
+A shiny VW van in front of a cityscape. A smiling sloth stands on grass in front of the van and is wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book. High-contrast oil painting.	World Knowledge	Style & Format		ret
+A shiny VW van that has flowers painted on it. A smiling sloth stands on grass in front of the van and is wearing a leather jacket, a cowboy hat, a kilt and a bowtie. The sloth is holding a quarterstaff and a big book. ink sketch.	World Knowledge	Style & Format		same
+Wood engraving of the Greek letter Omega	World Knowledge	Style & Format		ret
+a satellite image of a costal french city there is a large park on the west side and a mountain to the north. There is a cloud covering part of the image	Illustrations	Style & Format		ret
+A gundam stands tall with its sword raised. A city with tall skyscrapers is in the distance, with a mountain and ocean in the background. A dark moon is in the sky. realistic high-contrast anime illustration.	World Knowledge	Style & Format		same
+Hokusai's version of Animal Farm	Arts	Style & Format		gen
+A photograph in a temple of a wall painting depicting pandas playing tennis, in the style of Egyptian tomb hieroglyphics	World Knowledge	Style & Format		gen
+an old raccoon wearing a top hat and holding an apple, oil painting in the style of van gogh	Arts	Style & Format		same
+portrait of a well-dressed raccoon, oil painting in the style of Rembrandt	Arts	Style & Format		ret
+close-up portrait of a smiling businesswoman holding a cell phone, oil painting in the style of Rembrandt	People	Style & Format		same
+a portrait of a man wearing sunglasses and a business suit, painting in pop art style	People	Style & Format		ret
+a sport car melting into a clock, surrealist painting in the style of Salvador Dali	Arts	Style & Format		gen
+a stained glass window depicting a calm tyrannosaurus rex	Illustrations	Style & Format		ret
+a tennis match in the style of Egyptian hieroglyphic tomb paintings	World Knowledge	Style & Format		same
+vibrant portrait painting of Salvador Dalí with a robotic half face	People	Style & Format	DALL-E 2	same
+an espresso machine that makes coffee from human souls, high-contrast painting	Artifacts	Style & Format	DALL-E 2	gen
+panda mad scientist mixing sparkling chemicals, high-contrast painting	Animals	Style & Format	DALL-E 2	gen
+a dolphin in an astronaut suit on saturn, high-contrast painting	Animals	Style & Format	DALL-E 2	gen
+The Oriental Pearl in sketch style	World Knowledge	Style & Format	CogView	gen
+The Oriental Pearl in Chinese painting	World Knowledge	Style & Format	CogView	same
+The Oriental Pearl in oil painting	World Knowledge	Style & Format	CogView	gen
+a capybara made of voxels sitting in a field	Animals	Style & Format	DALL-E	same
+an emoji of a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants	Illustrations	Style & Format	DALL-E	gen
+a professional high quality emoji of a lovestruck cup of boba	Illustrations	Style & Format	DALL-E	same
+a dutch baroque painting of a horse in a field of flowers	Arts	Style & Format		gen
+Icon of a red heart	Illustrations	Style & Format	VQ-Diffusion	ret
+A cartoon house with red roof	Illustrations	Style & Format	VQ-Diffusion	same
+A cartoon tiger face	Animals	Style & Format	VQ-Diffusion	same
+Face of an orange frog in cartoon style	Animals	Style & Format	VQ-Diffusion	ret
+A vector illustration of a tree	Illustrations	Style & Format	VQ-Diffusion	gen
+an abstract painting of the Empire State Building	World Knowledge	Style & Format		gen
+an abstract painting of the Sydney Opera House	World Knowledge	Style & Format		same
+a painting of a white country home with a wrap-around porch	Outdoor Scenes	Style & Format		ret
+an oil painting of a cat playing checkers	Arts	Style & Format		same
+a surrealist dream-like oil painting by salvador dalí of a cat playing checkers	Arts	Style & Format	GLIDE	gen
+an oil painting of a hamster dragon	Arts	Style & Format	GLIDE	gen
+a high-quality oil painting of a psychedelic hamster dragon	Arts	Style & Format	GLIDE	ret
+a painting of a fox in the style of starry night	Arts	Style & Format	GLIDE	same
+a stained glass window of a panda eating bamboo	Artifacts	Style & Format	GLIDE	same
+a crayon drawing of a space elevator	Vehicles	Style & Format	GLIDE	same
+a futuristic city in synthwave style	Outdoor Scenes	Style & Format	GLIDE	ret
+a pixel art corgi pizza	Illustrations	Style & Format	GLIDE	same
+a green clock in the shape of a pentagon	Artifacts	Style & Format	DALL-E	gen
+a painting of a phone from the 20s	Artifacts	Style & Format	DALL-E	same
+a painting of the food of china	Food & Beverage	Style & Format	DALL-E	ret
+a photograph of a bust of homer	People	Style & Format	DALL-E	gen
+a drawing of a bust of homer	People	Style & Format	DALL-E	ret
+an armchair in the shape of an avocado	Artifacts	Style & Format	DALL-E	same
+a painting of the skyline of New York City	World Knowledge	Style & Format		ret
+a drawing of the skyline of New York City	World Knowledge	Style & Format		same
+a cartoon of a train going to the moon	Vehicles	Style & Format		gen
+a cartoon of a cow jumping over the moon	Animals	Style & Format		ret
+orange jello in the shape of a man	Food & Beverage	Style & Format		ret
+a comic about a friendly car in the city	Artifacts	Style & Format		gen
+a painting of street in Paris	World Knowledge	Style & Format		ret
+a painting of a canal in Venice	World Knowledge	Style & Format		same
+an abstract painting with blue, red and black	Arts	Style & Format		same
+an abstract painting of a waterfall	Arts	Style & Format		gen
+an abstract painting of a spaceship	Arts	Style & Format		gen
+an abstract painting of a pond with a bridge	Arts	Style & Format		ret
+a cartoon of an angry shark	Animals	Style & Format		ret
+a cartoon of a happy car on the road	Vehicles	Style & Format		same
+a cartoon of a bear birthday party	Animals	Style & Format		same
+a drawing of a house on a mountain	Arts	Style & Format		same
+a cartoon of a house on a mountain	Illustrations	Style & Format		same
+a painting of a house on a mountain	Arts	Style & Format		ret
+an abstract painting of a house on a mountain	Arts	Style & Format		ret
+a painting of a peaceful lakeside landscape	Arts	Style & Format		gen
+a drawing of a peaceful lakeside landscape	Arts	Style & Format		gen
+a map of Australia	World Knowledge	Style & Format		same
+a map of Italy	World Knowledge	Style & Format		same
+a map of South America	World Knowledge	Style & Format		same
+a map of Texas	World Knowledge	Style & Format		same
+a map of Manhattan	World Knowledge	Style & Format		gen
+an impressionistic painting of tree and a building	Arts	Style & Format		same
+an abstract painting of a tree and a building	Arts	Style & Format		gen
+a watercolor painting of a tree and a building	Arts	Style & Format		same
+an oil painting of a tree and a building	Arts	Style & Format		same
+an abstract painting of three triangles in blue, red and white	Arts	Style & Format		gen
+an abstract painting of three triangles in blue, yellow and red	Arts	Style & Format		ret
+an abstract painting of three squares in blue, red and white	Arts	Style & Format		gen
+an abstract painting of three squares in blue, yellow and red	Arts	Style & Format		gen
+a painting of a cute owl on a box	Arts	Style & Format		ret
+a horse in a field in Minecraft style	Animals	Style & Format		ret
+a drawing of a pig face with an eye patch	Illustrations	Style & Format		gen
+a drawing of a hammer	Illustrations	Style & Format		ret
+a drawing of a screwdriver	Illustrations	Style & Format		ret
+a drawing of a handsaw	Illustrations	Style & Format		ret
+a drawing of a power drill	Illustrations	Style & Format		same
+a cloud in the shape of a teacup	Outdoor Scenes	Style & Format		ret
+a cloud in the shape of a elephant	Outdoor Scenes	Style & Format		ret
+a cloud in the shape of a castle	Outdoor Scenes	Style & Format		ret
+a footprint shaped like a peanut	Artifacts	Style & Format		gen
+a drawing of a stork playing a violin	Illustrations	Style & Format		gen
+The Statue of Liberty in Minecraft	World Knowledge	Style & Format		same
+An oil painting of the Statue of Liberty	World Knowledge	Style & Format		same
+An abstract painting of the Statue of Liberty	World Knowledge	Style & Format		gen
+a diagram of brain function	Illustrations	Style & Format		gen
+a diagram of the human digestive system	Illustrations	Style & Format		same
+a diagram of a suburban house	Illustrations	Style & Format		ret
+a stop sign with a blue background	Artifacts	Style & Format		ret
+a painting of a sport car in the style of Monet	Arts	Style & Format		same
+a painting of a sport car in the style of Dali	Arts	Style & Format		same
+a drawing of a space shuttle in the style of da Vinci	Arts	Style & Format		gen
+a coloring book page of a horse next to a stream	Artifacts	Style & Format		same
+a sketch of a horse	Illustrations	Style & Format		same
+a sketch of a skyscraper	Illustrations	Style & Format		gen
+a sketch of a train	Illustrations	Style & Format		same
+a sketch of a camel next to a stream	Illustrations	Style & Format		gen
+a diagram of the star constellations	Illustrations	Style & Format		ret
+a thumbnail image of an ice cream cone	Illustrations	Style & Format		gen
+a thumbnail image of a horse and cart	Illustrations	Style & Format		same
+background pattern with alternating roses and skulls	Illustrations	Style & Format		same
+graffiti of a funny dog on a street wall	Illustrations	Style & Format		same
+graffiti of a rocket ship on a brick wall	Illustrations	Style & Format		gen
+a watercolor painting of a snowy owl standing in a grassy field	Arts	Style & Format		gen
+a cute illustration of a horned owl with a graduation cap and diploma	Illustrations	Style & Format		ret
+a cardboard spaceship	Vehicles	Style & Format		same
+the flag of the United Kingdom painted in rusty corrugated iron	World Knowledge	Style & Format		gen
+a diagram of the solar system	Illustrations	Style & Format		gen
+a drawing of a pint of beer on a brick wall	Illustrations	Style & Format		same
+an abstract painting of the lights at Times Square	World Knowledge	Style & Format		gen
+an abstract drawing of the Great Wall	World Knowledge	Style & Format		gen
+a diagram of the Great Wall	World Knowledge	Style & Format		same
+a map showing the Great Wall	World Knowledge	Style & Format		gen
+a still life painting of a pair of shoes	Artifacts	Style & Format		same
+an impressionist painting of the geyser Old Faithful	World Knowledge	Style & Format		same
+a diagram of how the geyser Old Faithful works	World Knowledge	Style & Format		same
+an abstract painting of the Great Pyramid	World Knowledge	Style & Format		same
+a diagram of the inside of the Great Pyramid	World Knowledge	Style & Format		ret
+the silhouette of the Milllenium Wheel at dusk	World Knowledge	Style & Format		gen
+a painting of ten children on a couch	People	Style & Format		same
+a painting of a man standing on a street corner	People	Style & Format		same
+a painting of a man standing under a tree	People	Style & Format		gen
+a drawing of a man standing under a tree	People	Style & Format		gen
+a cartoon of a man standing under a tree	People	Style & Format		gen
+a comic about a boy going to school	People	Style & Format		ret
+a comic about a girl going to a farm	People	Style & Format		gen
+a comic about a boy and a tiger	People	Style & Format		gen
+a comic about a family on a road trip	People	Style & Format		same
+a comic about a father and a son playing tennis	People	Style & Format		same
+a cartoon of a boy playing with a tiger	People	Style & Format		same
+the mona lisa	People	Style & Format		same
+a painting of the Mona Lisa with a frown	People	Style & Format		same
+a painting of the Mona Lisa with New York City behind her	People	Style & Format		ret
+the Mona Lisa in the style of Minecraft	People	Style & Format		gen
+a thumbnail image of a person skiing	People	Style & Format		ret
+a thumbnail image of a gingerbread man	Illustrations	Style & Format		same
+the cover of The Beatle's album Revolver	World Knowledge	Style & Format		gen
+the saying "BE EXCELLENT TO EACH OTHER" on a rough wall with a graffiti image of a green alien wearing a tuxedo.	Outdoor Scenes	Writing & Symbols		same
+A green sign that says "Very Deep Learning" and is at the edge of the Grand Canyon.	World Knowledge	Writing & Symbols		same
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. charcoal sketch	Animals	Writing & Symbols		gen
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. child's crayon drawing	Animals	Writing & Symbols		gen
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. Chinese ink and wash painting	Animals	Writing & Symbols		same
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. color ink-and-wash drawing	Animals	Writing & Symbols		gen
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. comic book illustration	Animals	Writing & Symbols		ret
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. marble statue	Animals	Writing & Symbols		gen
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. oil painting	Animals	Writing & Symbols		same
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. photograph	Animals	Writing & Symbols		same
+Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. woodcut	Animals	Writing & Symbols		same
+Two cups of coffee, one with latte art of a map of United States. The other has latte art of a map of Africa.	World Knowledge	Writing & Symbols		same
+Two cups of coffee, one with latte art of a lovely princess. The other has latte art of a frog.	Food & Beverage	Writing & Symbols		ret
+Two cups of coffee, one with latte art of a heart. The other has latte art of stars.	Food & Beverage	Writing & Symbols		same
+Two cups of coffee, one with latte art of the Eiffel tower. The other has latte art of the Statue of Liberty.	Food & Beverage	Writing & Symbols		same
+A sign that says Deep Learning	Artifacts	Writing & Symbols		same
+A bar of chocolate without a wrapper that has the word "WRAPPER" printed on it.	Artifacts	Writing & Symbols		ret
+A glass of red wine tipped over on a couch, with a stain that writes "OOPS" on the couch.	Indoor Scenes	Writing & Symbols		same
+Two cups of coffee, one with latte art of yin yang symbol. The other has latte art of a heart.	Food & Beverage	Writing & Symbols		gen
+"G I G G L E" painted in thick colorful lettering as graffiti on a faded red brick wall with a splotch of exploding white paint.	Illustrations	Writing & Symbols		gen
+high-contrast image of the word "WOMBAT" written with thick colored graffiti letters on a white wall with dramatic splashes of paint	Illustrations	Writing & Symbols		gen
+A plush monkey fording the Charles River on a log while wearing a Boston Red Sox hat with MIT in the background.	World Knowledge	Writing & Symbols		gen
+the letters P A X forming a very simple outline of an elephant's shape.  the elephant is facing left. vector art, orange logo.	Illustrations	Writing & Symbols		ret
+A burger patty, with the bottom bun and lettuce and tomatoes. "COFFEE" written on it in mustard	Food & Beverage	Writing & Symbols		ret
+Two cups of coffee, one with latte art of the words "LOVE" written in one. The other has latte art of the words "PEACE" written in the other.	Artifacts	Writing & Symbols		gen
+The saying "BE EXCELLENT TO EACH OTHER" written in a stained glass window.	Illustrations	Writing & Symbols		same
+The saying "BE EXCELLENT TO EACH OTHER" written in faded paint on the hull of an old wooden boat and reflected in the water. Wide-angle lens.	Illustrations	Writing & Symbols		same
+The saying "BE EXCELLENT TO EACH OTHER" written on a red brick wall with a graffiti image of a green alien wearing a tuxedo. A yellow fire hydrant is on a sidewalk in the foreground.	Illustrations	Writing & Symbols		same
+The saying "BE EXCELLENT TO EACH OTHER" written with carved letters on driftwood.	Illustrations	Writing & Symbols		gen
+a hot air balloon with chameleon logo. the sun is shining and puffy white clouds are in the background.	Vehicles	Writing & Symbols		ret
+A portrait photo of a kangaroo wearing an orange hoodie and blue sunglasses standing on the grassin front of the Sydney Opera House holding a sign on the chest that says Welcome Friends!	World Knowledge	Writing & Symbols		ret
+Anime illustration of a kangaroo holding a sign that says "Starry Night", in front of the Sydney Opera House sitting next to the Eiffel Tower under a blue night sky of roiling energy, exploding yellow stars, and radiating swirls of blu	World Knowledge	Writing & Symbols		same
+a group of cats in a meeting. there is a whiteboard with "stack more layers" written on it.	Indoor Scenes	Writing & Symbols		same
+A high contrast portrait photo of a fluffy hamster wearing an orange beanie and sunglasses holding a sign that says "Let's PAINT!"	Animals	Writing & Symbols		ret
+a cartoon of a dog saying "I see what you did there"	Animals	Writing & Symbols		gen
+a robot holding a sign with "Let's PAINT!" written on it	Artifacts	Writing & Symbols		same
+a dog wearing a baseball cap backwards and writing BONEZ on a chalkboard	Animals	Writing & Symbols		gen
+graffiti spelling BE KIND on white subway tile	Illustrations	Writing & Symbols		same
+a grumpy porcupine handing a check for $10,000 to a smiling peacock	Animals	Writing & Symbols		gen
+a boat with 'BLUE GROOVE' written on its hull	Vehicles	Writing & Symbols		gen
+a store front that has the word ‘openai’ written on it.	Outdoor Scenes	Writing & Symbols	DALL-E	same
+a laptop with a maze sticker on it	Artifacts	Writing & Symbols		gen
+a yellow t-shirt with a dog on it	Artifacts	Writing & Symbols		same
+a blue t-shirt with a dinosaur on it	Artifacts	Writing & Symbols		same
+a bowl with a dinosaur on it	Artifacts	Writing & Symbols		same
+a bowl with a cartoon dinosaur on it	Artifacts	Writing & Symbols		same
+a flag with a dinosaur on it	Illustrations	Writing & Symbols		gen
+a flag with a drawing of a dinosaur on it	Artifacts	Writing & Symbols		ret
+a flag with three vertical stripes	Illustrations	Writing & Symbols		same
+a flag with three vertical stripes that are blue, white and red	Illustrations	Writing & Symbols		gen
+a white towel with a cartoon of a cat on it	Artifacts	Writing & Symbols		gen
+a black towel with a cartoon of a dog on it	Artifacts	Writing & Symbols		gen
+a yellow wall with the word KA-BOOM on it	Artifacts	Writing & Symbols		gen
+a cat sitting on a box with a drawing of an elephant on it	Animals	Writing & Symbols		ret
+the word 'mardefly' on a coffee mug	Artifacts	Writing & Symbols		same
+a stop sigh with 'ALL WAY' written below it	Artifacts	Writing & Symbols		ret
+a sticker stuck in the middle of a stop sign	Artifacts	Writing & Symbols		same
+world's best brother t-shirt	Artifacts	Writing & Symbols		same
+the cover of a book called 'Backpropaganda' by I.C. Gradients	Illustrations	Writing & Symbols		gen
+the saying 'do unto others as they would do unto you' written on a white background	Artifacts	Writing & Symbols		same
+a t-shirt with Carpe Diem written on it	Artifacts	Writing & Symbols		gen
+a sweatshirt with 'Batch Norm' written on it	Artifacts	Writing & Symbols		gen
+a yellow sticky note with 'BUY MILK' written on it	Artifacts	Writing & Symbols		gen
+a large open book showing text and an illustration of a cat	Artifacts	Writing & Symbols		same
+a yellow wall with 'Hello, world.' written on it	Indoor Scenes	Writing & Symbols		gen
+a motorcycle parked in an ornate bank lobby with "BUZZ" written on its body	Vehicles	Writing & Symbols		gen
+a logo of a wombat on a coffee mug	Artifacts	Writing & Symbols		same
+a coffee mug with an ankh symbol on it	Artifacts	Writing & Symbols		gen
+a t-shirt with 'ANKH' written on it	Artifacts	Writing & Symbols		same
+a t-shirt with 'Archaelogy Rocks!' written on it	Artifacts	Writing & Symbols		gen
+a black t-shirt with the peace sign on it	Artifacts	Writing & Symbols		same
+a store front with 'Grassy Meadow' written on it	Outdoor Scenes	Writing & Symbols		ret
+a store front with 'AwesomePurchase' written on it	Outdoor Scenes	Writing & Symbols		gen
+a laptop screen showing an internet search	Artifacts	Writing & Symbols		ret
+a laptop screen showing a bunch of photographs	Artifacts	Writing & Symbols		gen
+a laptop screen showing a document being edited	Artifacts	Writing & Symbols		gen
+a book with the words 'Don't Panic!' written on it	Artifacts	Writing & Symbols		same
+the words 'KEEP OFF THE GRASS'	Illustrations	Writing & Symbols		ret
+the words 'KEEP OFF THE GRASS' written on a brick wall	Indoor Scenes	Writing & Symbols		same
+the words 'KEEP OFF THE GRASS' on a black sticker	Illustrations	Writing & Symbols		same
+the words 'KEEP OFF THE GRASS' on a sign next to a lawn	Outdoor Scenes	Writing & Symbols		ret
+the word 'START'	Illustrations	Writing & Symbols		gen
+the word 'START' written on a street surface	Illustrations	Writing & Symbols		same
+the word 'START' on a blue t-shirt	Artifacts	Writing & Symbols		gen
+the word 'START' written above the word 'SMILING'	Illustrations	Writing & Symbols		ret
+the word 'START' written in chalk on a sidewalk	Outdoor Scenes	Writing & Symbols		same
+a wooden post with a yellow '3' painted on top	Outdoor Scenes	Writing & Symbols		same
+a wooden post in front of a patch of tall grass	Outdoor Scenes	Writing & Symbols		gen
+a wooden post with a blue '5' painted on top	Outdoor Scenes	Writing & Symbols		same
+a series of musical notes on a black t-shirt	Artifacts	Writing & Symbols		gen
+a series of musical notes on a computer screen	Artifacts	Writing & Symbols		same

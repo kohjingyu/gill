@@ -4,4 +4,4 @@ __pycache__
 .pytest_cache
 venv
 runs/
-data/
+data/cc3m

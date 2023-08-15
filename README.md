@@ -118,6 +118,18 @@ python scripts/prune_model_ckpt.py  runs/gill_exp
 We used the same script to create the weights in the `checkpoints/` directory.
 
 
+## Training a Decision Classifier
+
+Preprocess our PartiPrompts annotations to keep only those with high interannotator agreement:
+```
+python scripts/process_p2_annotations.py
+```
+
+Train a linear classifier on the annotations:
+```
+python scripts/train_decision_model.py
+```
+
 
 ## Evaluation
 
