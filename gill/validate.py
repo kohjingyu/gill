@@ -241,9 +241,9 @@ def validate(val_loader, model, tokenizer, criterion, epoch, args):
       bleu2_score = bleu_scorers[1](all_generated_captions, full_gt_captions)
       bleu2.update(bleu2_score, 1)
       bleu3_score = bleu_scorers[2](all_generated_captions, full_gt_captions)
-      bleu3.update(bleu3_score, 2)
+      bleu3.update(bleu3_score, 1)
       bleu4_score = bleu_scorers[3](all_generated_captions, full_gt_captions)
-      bleu4.update(bleu4_score, 3)
+      bleu4.update(bleu4_score, 1)
 
       # Measure retrieval metrics over the entire validation set.
       all_image_features = torch.cat(all_image_features, axis=0)  # (coco_val_len, 2048)
