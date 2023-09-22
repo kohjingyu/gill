@@ -204,7 +204,7 @@ If you find this work or our code useful, please consider citing:
 @article{koh2023generating,
   title={Generating Images with Multimodal Language Models},
   author={Koh, Jing Yu and Fried, Daniel and Salakhutdinov, Ruslan},
-  journal={arXiv preprint arXiv:2305.17216},
+  journal={NeurIPS},
   year={2023}
 }
 ```
