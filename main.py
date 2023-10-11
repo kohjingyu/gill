@@ -86,7 +86,7 @@ def parse_args(args):
 
   parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
             help='number of data loading workers (default: 4)')
-  parser.add_argument('--epochs', default=90, type=int, metavar='N',
+  parser.add_argument('--epochs', default=10, type=int, metavar='N',
             help='number of total epochs to run')
   parser.add_argument('--steps_per_epoch', default=2000, type=int, metavar='N',
             help='number of training steps per epoch')
