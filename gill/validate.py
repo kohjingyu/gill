@@ -80,7 +80,7 @@ def validate(val_loader, model, tokenizer, criterion, epoch, args):
           elif model_mode == 'retrieval':
             loss = args.ret_loss_scale * model_output.loss
           elif model_mode == 'generation':
-            loss = args.ret_loss_scale * model_output.loss
+            loss = args.gen_loss_scale * model_output.loss
           else:
             raise NotImplementedError
 
