@@ -29,7 +29,7 @@ if __name__ == '__main__':
         state_dict[k.replace('module.', '')] = v.detach().clone()
 
     checkpoint['state_dict'] = state_dict
-    finetuned_tokens = checkpoint['state_dict']['model.input_embeddings.weight'][-model_args['num_gen_tokens']:, :].detach().clone()
+    finetuned_tokens = checkpoint['state_dict']['model.input_embeddings.weight'][-model_args['num_tokens']:, :].detach().clone()
     checkpoint['state_dict']['model.input_embeddings.weight'] = finetuned_tokens
 
     with open(os.path.join(model_dir, 'pretrained_ckpt.pth.tar'), 'wb') as f:
