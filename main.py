@@ -240,6 +240,7 @@ def main_worker(gpu, ngpus_per_node, args):
   model_args = models.GILLArgs()
   model_args.opt_version = args.opt_version
   model_args.visual_encoder = args.visual_model
+  model_args.text_emb_layers = [-1]
   model_args.freeze_lm = True
   model_args.freeze_vm = True
   model_args.n_visual_tokens = args.n_visual_tokens
