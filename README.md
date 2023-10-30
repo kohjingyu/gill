@@ -48,6 +48,11 @@ For image retrieval, we provide the precomputed visual embeddings for Conceptual
 
 Note that you can still run the model without these, but it will not produce retrieved images. It will always generate novel images!
 
+If you wish to precompute these embeddings for a different set of image URLs or for a different model, edit `scripts/extract_img_embs.py` with the list of image URLs and run it:
+
+```python scripts/extract_img_embs.py```
+
+
 
 ## Inference
 
