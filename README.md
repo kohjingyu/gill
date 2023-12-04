@@ -77,6 +77,8 @@ where each line contains the caption followed by the filename of the image files
 
 The corresponding image files should be saved in the `data/` directory. The directory can be changed with the `--image-dir` runtime flag.
 
+If you need help downloading CC3M for GILL, [this repo](https://github.com/ray-ruisun/CC3M-Helper/) contains helpful step-by-step tips.
+
 ### Precomputing Text Embeddings
 
 In addition to downloading the images, GILL also requires the embeddings from the text encoder of Stable Diffusion to train. We precompute this ahead of time in order to improve training time throughput. To do so, run the following script:
