@@ -166,7 +166,7 @@ python evals/compute_clip_similarity_vist.py
 
 For the LPIPS metric, please refer to their [official GitHub repo](https://github.com/richzhang/PerceptualSimilarity) for installation instructions. Then, we can compute the results as follows:
 ```
-python lpips_2dirs.py -d0  sis/val_images/  -d1  gill_vist_outputs  -o results.txt --use_gpu
+python evals/lpips_2dirs.py -d0  sis/val_images/  -d1  gill_vist_outputs  -o results.txt --use_gpu
 ```
 For LPIPS, you may have to resize the images to 256x256 to match the AlexNet model used. We have also uploaded our LPIPS eval script (`gill/evals/lpips_2dirs.py`) for reference.
 
