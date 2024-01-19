@@ -704,7 +704,7 @@ class GILL(nn.Module):
             image_outputs['decision'] = ['gen', [0, 1]]
 
           # Produce generation embedding.
-          gen_prefix = ' '.join([f'[IMG{i}]' for i in range(self.model.args.num_tokens)])
+          gen_prefix = ''.join([f'[IMG{i}]' for i in range(self.model.args.num_tokens)])
           gen_prefx_ids = self.model.tokenizer(gen_prefix, add_special_tokens=False, return_tensors="pt").input_ids.to(self.model.logit_scale.device)
           gen_prefix_embs = self.model.input_embeddings(gen_prefx_ids)  # (1, T, D)
           gen_emb = self.model.gen_text_hidden_fcs[0](raw_emb, gen_prefix_embs)  # (1, 77, 768)
